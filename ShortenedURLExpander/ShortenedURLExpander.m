@@ -6,16 +6,16 @@
 //  Copyright © 2018 ouyanghua. All rights reserved.
 //
 
-#import <AFNetworking/AFNetworking.h>
 #import <Foundation/Foundation.h>
 
 #import "ShortenedURLExpander.h"
 
-@interface ShortenedURLExpander ()
+static NSMapTable *sessions;
+
+@interface ShortenedURLExpander () <NSURLSessionTaskDelegate>
 
 @property (nonatomic,assign) bool(^isURLShortened)(NSURL *url);
 
-@property (nonatomic,strong) AFURLSessionManager *sessionManager;
 @property (nonatomic,strong) NSMapTable          *table;
 @property (nonatomic,strong) NSOperationQueue    *queue;
 @property (nonatomic,strong) NSLock              *lock;
@@ -24,6 +24,10 @@
 
 @implementation ShortenedURLExpander
 
+- (void)dealloc{
+    [sessions removeObjectForKey:self];
+}
+
 - (instancetype)init{
     self=[self initWithConfiguration:nil isURLShortened:nil];
     if(!self) return nil;
@@ -31,6 +35,10 @@
 }
 
 - (instancetype _Nullable)initWithConfiguration:(NSURLSessionConfiguration* _Nullable)configuration isURLShortened:(bool(^ _Nullable)(NSURL * _Nullable url))isURLShortened{
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        sessions=[NSMapTable weakToStrongObjectsMapTable];
+    });
     self=[super init];
     if (!self) return nil;
     if(isURLShortened) self.isURLShortened = isURLShortened;
@@ -40,15 +48,7 @@
     self.lock=[[NSLock alloc]init];
     self.queue=[[NSOperationQueue alloc]init];
     self.table=[NSMapTable weakToStrongObjectsMapTable];
-    self.sessionManager=[[AFURLSessionManager alloc]initWithSessionConfiguration:configuration?configuration:[NSURLSessionConfiguration defaultSessionConfiguration]];
-    __weak typeof(self) weakSelf=self;
-    [self.sessionManager setTaskWillPerformHTTPRedirectionBlock:^NSURLRequest * _Nullable(NSURLSession * _Nonnull session, NSURLSessionTask * _Nonnull task, NSURLResponse * _Nonnull response, NSURLRequest * _Nonnull request) {
-        [weakSelf.lock lock];
-        void(^callback)(id _Nullable, NSError * _Nullable)=[weakSelf.table objectForKey:task];
-        if (callback) callback(request.URL,nil);
-        [weakSelf.lock unlock];
-        return nil;
-    }];
+    [sessions setObject:[NSURLSession sessionWithConfiguration:configuration delegate:self delegateQueue:[[NSOperationQueue alloc]init]] forKey:self];
     return self;
 }
 
@@ -73,13 +73,7 @@
         }
         return 0;
     } start:^(void (^ _Nonnull callback)(id _Nullable, NSError * _Nullable)) {
-        task=[weakSelf.sessionManager dataTaskWithRequest:[NSURLRequest requestWithURL:url] uploadProgress:nil downloadProgress:nil completionHandler:^(NSURLResponse * _Nonnull response, id _Nullable responseObject, NSError * _Nullable error) {
-            if (error) callback(url,error);
-            else callback(url,error);
-            [weakSelf.lock lock];
-            [weakSelf.table removeObjectForKey:task];
-            [weakSelf.lock unlock];
-        }];
+        task=[[sessions objectForKey:weakSelf] dataTaskWithURL:url];
         [weakSelf.lock lock];
         [weakSelf.table setObject:callback forKey:task];
         [weakSelf.lock unlock];
@@ -93,4 +87,54 @@
     return operation;
 }
 
+- (void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task willPerformHTTPRedirection:(NSHTTPURLResponse *)response newRequest:(NSURLRequest *)request completionHandler:(void (^)(NSURLRequest * _Nullable))completionHandler{
+    [self.lock lock];
+    void(^callback)(id,NSError*)=[self.table objectForKey:task];
+    if (callback) callback(request.URL,nil);
+    [self.table removeObjectForKey:task];
+    [self.lock unlock];
+    completionHandler(nil);
+}
+
+- (void)URLSession:(NSURLSession *)session task:(NSURLSessionTask *)task didCompleteWithError:(NSError *)error{
+    [self.lock lock];
+    void(^callback)(id,NSError*)=[self.table objectForKey:task];
+    if (callback) callback(task.originalRequest.URL,error);
+    [self.table removeObjectForKey:task];
+    [self.lock unlock];
+}
+
 @end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
