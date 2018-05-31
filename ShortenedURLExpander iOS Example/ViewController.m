@@ -23,7 +23,7 @@
         return [url.host isEqualToString:@"t.cn"];
     }];
     self.operation=[self.expander expand:[NSURL URLWithString:@"http://t.cn/RnWLQVx"] maximumRetries:2 completion:^(NSURL *url, NSError *error) {
-        
+        NSLog(@"%@",url);
     }];
     // Do any additional setup after loading the view, typically from a nib.
 }
