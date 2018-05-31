@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name     = 'ShortenedURLExpander'
-    spec.version  = '1.0.0'
+    spec.version  = '1.0.1'
     spec.license  = 'MIT'
     spec.summary  = 'Shortened URL Expander'
     spec.homepage = 'https://github.com/emsihyo/ShortenedURLExpander'
@@ -14,5 +14,4 @@ Pod::Spec.new do |spec|
     spec.osx.deployment_target = '10.9'
     spec.source_files = 'ShortenedURLExpander/*.{h,m}'
     spec.dependency 'Retriable'
-    spec.dependency 'AFNetworking'
 end
