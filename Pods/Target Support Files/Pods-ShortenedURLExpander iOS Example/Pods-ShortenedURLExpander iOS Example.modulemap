@@ -1,0 +1,6 @@
+framework module Pods_ShortenedURLExpander_iOS_Example {
+  umbrella header "Pods-ShortenedURLExpander iOS Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
