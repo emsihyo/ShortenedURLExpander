@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name     = 'ShortenedURLExpander'
-    spec.version  = '1.0.1'
+    spec.version  = '1.0.2'
     spec.license  = 'MIT'
     spec.summary  = 'Shortened URL Expander'
     spec.homepage = 'https://github.com/emsihyo/ShortenedURLExpander'

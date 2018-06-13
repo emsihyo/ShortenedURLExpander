@@ -28,7 +28,7 @@ github "emsihyo/ShortenedURLExpander"
     self.expander=[[ShortenedURLExpander alloc] initWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration] isURLShortened:^bool(NSURL *url) {
         return [url.host isEqualToString:@"t.cn"];
     }];
-    self.operation=[self.expander expand:[NSURL URLWithString:@"http://t.cn/RnWLQVx"] maximumRetries:2 completion:^(NSURL *url, NSError *error) {
-        NSLog(@"%@",url);
+    self.operation=[self.expander expand:[NSURL URLWithString:@"http://t.cn/RnWLQVx"] maximumRetries:2 completion:^(NSURL *originalUrl,NSURL *expandedUrl, NSError *error) {
+        NSLog(@"%@",expandedUrl);
     }];
 ```
