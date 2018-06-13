@@ -22,6 +22,6 @@ FOUNDATION_EXPORT const unsigned char ShortenedURLExpanderVersionString[];
 
 - (instancetype _Nullable)initWithConfiguration:(NSURLSessionConfiguration* _Nullable)configuration isURLShortened:(bool(^ _Nullable)(NSURL * _Nullable url))isURLShortened NS_DESIGNATED_INITIALIZER;
 
-- (RetriableOperation* _Nullable)expand:(NSURL* _Nullable)url maximumRetries:(NSInteger)maximumRetries completion:(void(^ _Nullable)(NSURL * _Nullable url,NSError * _Nullable error))completion;
+- (RetriableOperation* _Nullable)expand:(NSURL* _Nullable)url maximumRetries:(NSInteger)maximumRetries completion:(void(^ _Nullable)(NSURL * _Nullable originalUrl,NSURL *expandedUrl,NSError * _Nullable error))completion;
 
 @end

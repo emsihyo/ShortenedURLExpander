@@ -52,15 +52,15 @@ static NSMapTable *sessions;
     return self;
 }
 
-- (RetriableOperation* _Nullable)expand:(NSURL* _Nullable)url maximumRetries:(NSInteger)maximumRetries completion:(void(^ _Nullable)(NSURL * _Nullable url,NSError * _Nullable error))completion{
+- (RetriableOperation* _Nullable)expand:(NSURL* _Nullable)url maximumRetries:(NSInteger)maximumRetries completion:(void(^ _Nullable)(NSURL * _Nullable originalUrl,NSURL *expandedUrl,NSError * _Nullable error))completion{
     if (!self.isURLShortened(url)){
-        completion(url,nil);
+        completion(url,url,nil);
         return nil;
     }
     __block NSURLSessionTask *task;
     __weak typeof(self) weakSelf=self;
     RetriableOperation *operation = [[RetriableOperation alloc]initWithCompletion:^(id  _Nullable response, NSError * _Nullable latestError) {
-        completion(response,latestError);
+        completion(url,response,latestError);
     } retryAfter:^NSTimeInterval(NSInteger currentRetryTime, NSError * _Nullable latestError) {
         if (![latestError.domain isEqualToString:NSURLErrorDomain]) return 0;
         if (currentRetryTime>=maximumRetries) return 0;
