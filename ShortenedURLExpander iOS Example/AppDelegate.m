@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  ShortenedURLExpander iOS Example
 //
-//  Created by emsihyo on 2018/5/31.
-//  Copyright © 2018 ouyanghua. All rights reserved.
+//  Created by retriable on 2018/5/31.
+//  Copyright © 2018 retriable. All rights reserved.
 //
 
 #import "AppDelegate.h"

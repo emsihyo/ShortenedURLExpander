@@ -1,5 +1,5 @@
 PODS:
-  - Retriable (1.0.2)
+  - Retriable (1.0.3)
 
 DEPENDENCIES:
   - Retriable
@@ -9,8 +9,8 @@ SPEC REPOS:
     - Retriable
 
 SPEC CHECKSUMS:
-  Retriable: 448b3348b9b28ce9bc46cc053dfea6a1dc88c605
+  Retriable: ed1ed6948190a057bf9b9b668fe95bef4e36c66d
 
 PODFILE CHECKSUM: f4d38c31fc2b35195e671972e7ddc8cd0ee5abab
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.6.1

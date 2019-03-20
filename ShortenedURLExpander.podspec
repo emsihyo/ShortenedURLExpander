@@ -1,11 +1,11 @@
 Pod::Spec.new do |spec|
     spec.name     = 'ShortenedURLExpander'
-    spec.version  = '1.0.2'
+    spec.version  = '1.0.3'
     spec.license  = 'MIT'
     spec.summary  = 'Shortened URL Expander'
-    spec.homepage = 'https://github.com/emsihyo/ShortenedURLExpander'
-    spec.author   = { 'emsihyo' => 'emsihyo@gmail.com' }
-    spec.source   = { :git => 'https://github.com/emsihyo/ShortenedURLExpander.git',:tag => "#{spec.version}" }
+    spec.homepage = 'https://github.com/retriable/ShortenedURLExpander'
+    spec.author   = { 'retriable' => 'retriable@retriable.com' }
+    spec.source   = { :git => 'https://github.com/retriable/ShortenedURLExpander.git',:tag => "#{spec.version}" }
     spec.description = 'Shortened URL Expander.'
     spec.requires_arc = true
     spec.ios.deployment_target = '8.0'

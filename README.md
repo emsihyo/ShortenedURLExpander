@@ -1,12 +1,12 @@
-# RetriableAFNetworking
+# ShortenedURLExpander
 
-[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/emsihyo/ShortenedURLExpander/master/LICENSE)
-[![Build Status](http://img.shields.io/travis/emsihyo/RetriableAFNetworking/master.svg?style=flat)](https://travis-ci.org/emsihyo/ShortenedURLExpander)
-[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/emsihyo/ShortenedURLExpander)
+[![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://raw.githubusercontent.com/retriable/ShortenedURLExpander/master/LICENSE)
+[![Build Status](http://img.shields.io/travis/retriable/RetriableAFNetworking/master.svg?style=flat)](https://travis-ci.org/retriable/ShortenedURLExpander)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/retriable/ShortenedURLExpander)
 [![Pod Version](http://img.shields.io/cocoapods/v/ShortenedURLExpander.svg?style=flat)](http://cocoapods.org/pods/ShortenedURLExpander)
 [![Pod Platform](http://img.shields.io/cocoapods/p/ShortenedURLExpander.svg?style=flat)](http://cocoapods.org/pods/ShortenedURLExpander)
 
-Retriable AFNetworking
+Shortened URL Expander
 
 #### Cocoapods
 
@@ -19,7 +19,7 @@ pod 'ShortenedURLExpander'
 
 Add the following to your project's Cartfile:
 ```ruby
-github "emsihyo/ShortenedURLExpander"
+github "retriable/ShortenedURLExpander"
 ```
 
 #### Example

@@ -3,611 +3,585 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16F4E3BAE55905C2DB132F13B42BB0AA /* Pods-ShortenedURLExpander macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 269F80444E04BBB4A45D1130418080E8 /* Pods-ShortenedURLExpander macOS-dummy.m */; };
-		1A45D4B1D7E5201903F08E7AFFF6704C /* Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 694E024FB8E360CF794E5598D03C52BA /* Retriable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E1FEF4BB263D883D0D4BDC7132BF832 /* Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 694E024FB8E360CF794E5598D03C52BA /* Retriable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E8BE8F9E4B7840E297823CA87F3D9F4 /* RetriableOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB646E7553F6DA0FB0A76B7182FBCC53 /* RetriableOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2C72DD95328F5895C6A8D4EBF75E94A9 /* RetriableOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB646E7553F6DA0FB0A76B7182FBCC53 /* RetriableOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2E3407B0405D0299381757259D5ABC22 /* Retriable-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 886569352368CD84CD7C3BBA11D459E7 /* Retriable-watchOS-dummy.m */; };
-		3162A9512C6914345212D52398655E93 /* RetriableOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B43E37B526D4BDBF0ADC1BE3ABD912 /* RetriableOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3227486E2938E6B34DDA9E7D43FB0E34 /* RetriableOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B43E37B526D4BDBF0ADC1BE3ABD912 /* RetriableOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		432B021945811CEA35B46895E838B1D0 /* Pods-ShortenedURLExpander tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDF81280704048111257EA05DB2C88 /* Pods-ShortenedURLExpander tvOS-dummy.m */; };
-		47D2A4E6F06E4302F99A3FCF0DBB7EEF /* Retriable-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE2AA3FB8FE4BFB7EA65374EFB9B1B43 /* Retriable-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		556005E875CD0FAC22309D66CE837EF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA7965516EC6E7995FD2AA427EF32E0 /* Foundation.framework */; };
-		5DA2B4F5BBEA673CE9E5C389D35C811B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B3B09E1B2D143A3BB809C46BB7A12 /* Cocoa.framework */; };
-		60205818E3DF632F64472003E731086C /* Pods-ShortenedURLExpander watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7161249CB4C51B7FB059B93FCECC8B39 /* Pods-ShortenedURLExpander watchOS-dummy.m */; };
-		6945E16759EA010E09C4760FC0F25244 /* Pods-ShortenedURLExpander iOS Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BEA725946F18CB84E67C3FD4F7874C9 /* Pods-ShortenedURLExpander iOS Example-dummy.m */; };
-		6D7D5938D2C5185C96856E1607674632 /* Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 694E024FB8E360CF794E5598D03C52BA /* Retriable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7AFF9196D9B62124F5657E278B973A26 /* Pods-ShortenedURLExpander tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FD2A354A7CC830FB813CA83BC66BF1F /* Pods-ShortenedURLExpander tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7B7342DAA7F484F4B38C567E05263696 /* RetriableOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB646E7553F6DA0FB0A76B7182FBCC53 /* RetriableOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8025D6A48DB5A1E479C2FED1F99F26DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65465551D71DA56EEDCE2BFDF9483914 /* Foundation.framework */; };
-		830722C72C9B8374576C654950ECB756 /* RetriableOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B43E37B526D4BDBF0ADC1BE3ABD912 /* RetriableOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8FDC507546C8CF246F5461D463711AFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA7965516EC6E7995FD2AA427EF32E0 /* Foundation.framework */; };
-		94E4F248899C17557F7320CDC147C696 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CA7965516EC6E7995FD2AA427EF32E0 /* Foundation.framework */; };
-		95D849744FAFD869A5E3754722EA7281 /* Pods-ShortenedURLExpander iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9553F1D6CD372CC2D460FE714C2145 /* Pods-ShortenedURLExpander iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		965D7DF02EA9CD195C3C66F615B41D03 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232B3B09E1B2D143A3BB809C46BB7A12 /* Cocoa.framework */; };
-		9E4BCC3FC16481DD28F972A9ED83A5D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65465551D71DA56EEDCE2BFDF9483914 /* Foundation.framework */; };
-		A8B00C4384E601521E8FD75499B3E985 /* Retriable-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BEC251938912C080F8E844F8CED308 /* Retriable-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC51301D0803EF24ABC64BA29B4D5AC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E8AC686E83EC06EAB603A897AB18DC /* Foundation.framework */; };
-		B20C9EB584F494EF12047DD16DC91C43 /* Pods-ShortenedURLExpander iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ECA5B5674D858122D8782C8C407C406 /* Pods-ShortenedURLExpander iOS-dummy.m */; };
-		B3ED515F151BD7C19651724066825D21 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41D270735AEACD705DA2BA35D5B86967 /* UIKit.framework */; };
-		BA8BDCDFE6C1F5B91F282E1842B40566 /* Retriable-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CAB1B36E2F5E04B60D0B38AAAB6BE1AA /* Retriable-iOS-dummy.m */; };
-		C9F174F71E27B12F025BA0A1D264B700 /* Pods-ShortenedURLExpander macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF76489755C3619D95BBD97BE374FB64 /* Pods-ShortenedURLExpander macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D14CECA8545174F9B8907AD88680F147 /* Retriable-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC9C21C575362D9029989B89D1DA6EA /* Retriable-macOS-dummy.m */; };
-		D19937E14289C25C412650EBA2715284 /* Retriable-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32B8CF242F4AE616F9E1201940DD5473 /* Retriable-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D94BC2C9AC6C59E36238EA22D2798DB9 /* Pods-ShortenedURLExpander watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14AB869D743D8BDB5E26A541276FC1F5 /* Pods-ShortenedURLExpander watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D9DCB106E7A043DA1318724A3579C8E8 /* Retriable-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74B42C5D975CB04E601257EC5AEEEE91 /* Retriable-tvOS-dummy.m */; };
-		DCEB24E0DE1FEA4C383BBEA5A21DD1D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3343CE86249B163C1E20784CE68232CF /* UIKit.framework */; };
-		DD62F29C7B15EAB4DABADCEED51E28FD /* Retriable-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1230F67538A8FF0D56F75D1952C9BA3 /* Retriable-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E426EA430987B9F45E460EF0F6275074 /* Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 694E024FB8E360CF794E5598D03C52BA /* Retriable.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB0F308F1E93E2899BDBDEA82D254CBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2E8AC686E83EC06EAB603A897AB18DC /* Foundation.framework */; };
-		F31687DEB578FFF901695D5EAE8A59CA /* Pods-ShortenedURLExpander iOS Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 179502E7B31353344D88B235B6253353 /* Pods-ShortenedURLExpander iOS Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F35F2EB90B8087AB850A1FDADAC19691 /* RetriableOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C2B43E37B526D4BDBF0ADC1BE3ABD912 /* RetriableOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FA862E9DAFB6FCDCB729E8E3BB2207F9 /* RetriableOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = AB646E7553F6DA0FB0A76B7182FBCC53 /* RetriableOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		006B02741EB9DA94691E283B11185569 /* Pods-ShortenedURLExpander iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9942978C3CF3D3683A238A6082B0C256 /* Pods-ShortenedURLExpander iOS-dummy.m */; };
+		05949C823BCB0639785A31D4FFB3424F /* Pods-ShortenedURLExpander watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CECDF4294DE51BE1EDD20253AC9B256A /* Pods-ShortenedURLExpander watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07913FF6EDCEBC8C8A7DA1DA345CEB73 /* Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7CE7045A060E86BDE2A5713FA6E6B /* Retriable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0CD4B982DF6260366F1DC7C0DD6D0AC7 /* Retriable-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6EA0D87DCF039AD376EDE4859883E03 /* Retriable-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		103BF9D3BD5E00EC107EBC94876143F6 /* Retriable-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E7A84C6D570B8B49FB61D8BA1CEFA43 /* Retriable-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11BFB263BEB309EC3269FDFC17CE5ADB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 256F88FAC97A66C6A6681D9B90F37FB1 /* UIKit.framework */; };
+		1AC26B8DD1DB1F8A89A8B281EDB5630B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6829FC1F9CC6C05B8E73477766AA088 /* Cocoa.framework */; };
+		1B1DC03B2B1A08E24F96FFF8F73D9F44 /* Pods-ShortenedURLExpander watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA694BCD40A1483B90D5812B96712284 /* Pods-ShortenedURLExpander watchOS-dummy.m */; };
+		2702825B7D3A9F3F8F43F122C5597361 /* Pods-ShortenedURLExpander iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 71E42FD319173CB3B298D9F2887DFF70 /* Pods-ShortenedURLExpander iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FAEA5E1B781993E49D239D9ABBE61C9 /* Pods-ShortenedURLExpander iOS Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59811237A43873C5BFACA67222AA04BE /* Pods-ShortenedURLExpander iOS Example-dummy.m */; };
+		32246FCB0380348C3EAD6F385E40AC77 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6829FC1F9CC6C05B8E73477766AA088 /* Cocoa.framework */; };
+		324802DE25DB9EC4575A21BDA7289DA3 /* Pods-ShortenedURLExpander tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 98CE1E606D2AD040F59C40D6540FDE6A /* Pods-ShortenedURLExpander tvOS-dummy.m */; };
+		4DBCA795AFEE11862F49EE0371B7921E /* RetriableOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 72002FCC3D4810C0E3D63729BA75ABAD /* RetriableOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		545CB49A35E2787DB7CFD067C887C8EF /* Retriable-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53A0D9D6306591F075D2D3DA2C19CD89 /* Retriable-iOS-dummy.m */; };
+		55E738515B042F5A1DEFAE2C827685EB /* Pods-ShortenedURLExpander macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 025292CEF972A698FA07C8ED75CA437C /* Pods-ShortenedURLExpander macOS-dummy.m */; };
+		6264FAA1467468B7813AC5795E878E61 /* RetriableOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4152DFCC0BD68058D6AAC235AE083D46 /* RetriableOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		667D0F7FA9605D26835E269604233AD0 /* RetriableOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 72002FCC3D4810C0E3D63729BA75ABAD /* RetriableOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6C6203924CE16CEF0A30F8439DEC10A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D7A3EB9EB2C39996496A5B217BCA1BD /* UIKit.framework */; };
+		724B52DAD20B4BDD1DCD707935046370 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3F4B3A8D5C61C4A5CAE90A70814864 /* Foundation.framework */; };
+		729C23C32A64027A8ACB5A58F8B60ACB /* Pods-ShortenedURLExpander macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA463467BED7615F2522EE1924F3B0D6 /* Pods-ShortenedURLExpander macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7417861C7F7CC16C6EC4D8AAC1483FDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5A4F8495E4CA17BD2147D4E177B181 /* Foundation.framework */; };
+		74B11462C5BA03B11449EFBD80164FE6 /* RetriableOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 72002FCC3D4810C0E3D63729BA75ABAD /* RetriableOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7A36CB75F2FE617A730CEB488888C6AF /* RetriableOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4152DFCC0BD68058D6AAC235AE083D46 /* RetriableOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83A22DAB6F61FBA580CEFB5C19F50E23 /* Pods-ShortenedURLExpander tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F2282A72EDA8592D28AC5FF6380421 /* Pods-ShortenedURLExpander tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9024AE8BFE916DB9E183D0D18B75ACAB /* Retriable-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BFA23E9E4340DE994CF390FB3949C5D /* Retriable-watchOS-dummy.m */; };
+		912DFC61714667581DF801B80E9B4178 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F3F4B3A8D5C61C4A5CAE90A70814864 /* Foundation.framework */; };
+		92AF1A6F3F9121D6BCD7C10CF6C06754 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0DE33740661EA893C65C5E3635C9C7 /* Foundation.framework */; };
+		9674758AF178446971F046C8F684EE05 /* Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7CE7045A060E86BDE2A5713FA6E6B /* Retriable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98B0938E6002C697306D3F13BB792402 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D5A4F8495E4CA17BD2147D4E177B181 /* Foundation.framework */; };
+		99F3595361D4299862D2D1921C88350E /* Retriable-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A4BDFCB0E96A57389CF0014EBF18642 /* Retriable-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1CDE5247DE12E49958CE77C6C0BCCDB /* Retriable-macOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 862A9718C26317FFCB3C721B58485415 /* Retriable-macOS-dummy.m */; };
+		A79994FEDDF9E061A412E50BA226A3BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0DE33740661EA893C65C5E3635C9C7 /* Foundation.framework */; };
+		A887348F51CF7B76A61CFB006FBE31DC /* Retriable-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB7BE062EB25280950D645EE2A8E7080 /* Retriable-tvOS-dummy.m */; };
+		AB002B67CC68B99CC585DB7B6C4C4947 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B0DE33740661EA893C65C5E3635C9C7 /* Foundation.framework */; };
+		AC1D59AEED4D42D1D4A3A8E10787BDAA /* Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7CE7045A060E86BDE2A5713FA6E6B /* Retriable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE6A20C1384691629D294C065064D587 /* RetriableOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4152DFCC0BD68058D6AAC235AE083D46 /* RetriableOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF303F7F9220EBE499B57B1184D15406 /* RetriableOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 72002FCC3D4810C0E3D63729BA75ABAD /* RetriableOperation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BF8C7B78EF275DF93ED0EC05B2C32FA5 /* Retriable-macOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 640BFCD15C8106937C8378DBCF0792D3 /* Retriable-macOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC1CA3AF95B4929E26DF46F7B5625A1A /* RetriableOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4152DFCC0BD68058D6AAC235AE083D46 /* RetriableOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC1646AD43470C282A7EF9426938BCDA /* Retriable.h in Headers */ = {isa = PBXBuildFile; fileRef = 30F7CE7045A060E86BDE2A5713FA6E6B /* Retriable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F998F30BCCFE710A512AA37B9FB6D13A /* Pods-ShortenedURLExpander iOS Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE1B58899ADF773AE95DD6ED8162BE76 /* Pods-ShortenedURLExpander iOS Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		055F5AA1D7484CE59EAB1B7C04269E3F /* PBXContainerItemProxy */ = {
+		3D9478286AA250F7EAFA9BD687E54999 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2B793E24E35E9F650E9C6CD77A5AC1A9;
-			remoteInfo = "Retriable-macOS";
+			remoteGlobalIDString = F7DBAB94A3CF97D4212094003E08B68A;
+			remoteInfo = "Retriable-watchOS";
 		};
-		0FFB577B0389CC59BA934E96E3071E6B /* PBXContainerItemProxy */ = {
+		8E78971135B41CDBF4CAC2DF35D1861E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9B58445B913AC22580D57002AAC4E5C7;
+			remoteGlobalIDString = 101B3CB55A6F4AA31D253B254C6BD9D5;
 			remoteInfo = "Retriable-tvOS";
 		};
-		424A012013C5BABF1F07A5BCE4EBFFFB /* PBXContainerItemProxy */ = {
+		952B51DDC123097F4F464FF4BD2BBF11 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F9088D5F5320FDB01BD53C8DB7AD744D;
+			remoteGlobalIDString = E2531DF0E145688AD0E626AF962618B5;
 			remoteInfo = "Retriable-iOS";
 		};
-		7EAD71403CCA195A7F33D6979EC9CEE2 /* PBXContainerItemProxy */ = {
+		AA4BC86194F3C0462792E2022CB773AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F9088D5F5320FDB01BD53C8DB7AD744D;
-			remoteInfo = "Retriable-iOS";
+			remoteGlobalIDString = B9E1E21E77C2E0BAA83EB5C9983A5390;
+			remoteInfo = "Retriable-macOS";
 		};
-		B15AE3673A37712ED9E3C5FB2C0DDDCE /* PBXContainerItemProxy */ = {
+		C49397B7A3C5E8903237041E664F197D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D41791F578B2039B95C17B74CC91B233;
-			remoteInfo = "Retriable-watchOS";
+			remoteGlobalIDString = E2531DF0E145688AD0E626AF962618B5;
+			remoteInfo = "Retriable-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00753FF82CD31933C92A757E8BC83D06 /* Pods-ShortenedURLExpander macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortenedURLExpander macOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		0632AA9BCA306D6DE68EF77DC3BB8EE2 /* Pods-ShortenedURLExpander watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander watchOS.debug.xcconfig"; sourceTree = "<group>"; };
-		116EBDA121EE07DDCD676F0E6E2B8973 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14AB869D743D8BDB5E26A541276FC1F5 /* Pods-ShortenedURLExpander watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShortenedURLExpander watchOS-umbrella.h"; sourceTree = "<group>"; };
-		14CA96CC0AEAD4999E9766BC1DDD99DD /* Pods-ShortenedURLExpander iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShortenedURLExpander iOS.modulemap"; sourceTree = "<group>"; };
-		179502E7B31353344D88B235B6253353 /* Pods-ShortenedURLExpander iOS Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShortenedURLExpander iOS Example-umbrella.h"; sourceTree = "<group>"; };
-		21FD2F3FFBEA4D9F25ACD9B51344ECD8 /* Pods_ShortenedURLExpander_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ShortenedURLExpander_tvOS.framework; path = "Pods-ShortenedURLExpander tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		232B3B09E1B2D143A3BB809C46BB7A12 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		269F80444E04BBB4A45D1130418080E8 /* Pods-ShortenedURLExpander macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShortenedURLExpander macOS-dummy.m"; sourceTree = "<group>"; };
-		2876CA4071077D7C626FF6359E9AB743 /* Retriable-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Retriable-iOS.xcconfig"; sourceTree = "<group>"; };
-		2B7905B9D2CA42FDF3132FB3D2CAF40F /* Pods-ShortenedURLExpander tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		2CA7965516EC6E7995FD2AA427EF32E0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		2D6CB29C4B97645D355F41F988249A58 /* Pods-ShortenedURLExpander iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortenedURLExpander iOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		32B8CF242F4AE616F9E1201940DD5473 /* Retriable-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-watchOS-umbrella.h"; path = "../Retriable-watchOS/Retriable-watchOS-umbrella.h"; sourceTree = "<group>"; };
-		3343CE86249B163C1E20784CE68232CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		34D65BE483866F89E0632E09F7C383D8 /* Retriable-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Retriable-iOS.modulemap"; sourceTree = "<group>"; };
-		381F33A38A3FED9C21135F41F43EB24D /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Retriable.framework; path = "Retriable-macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3ECA5B5674D858122D8782C8C407C406 /* Pods-ShortenedURLExpander iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShortenedURLExpander iOS-dummy.m"; sourceTree = "<group>"; };
-		41D270735AEACD705DA2BA35D5B86967 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		4D945DC3B1B9D51A0884F866C5AF8F5B /* Pods-ShortenedURLExpander watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShortenedURLExpander watchOS.modulemap"; sourceTree = "<group>"; };
-		4F581128D8E1D320692CA33EA6EE32E7 /* Retriable-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Retriable-macOS.modulemap"; path = "../Retriable-macOS/Retriable-macOS.modulemap"; sourceTree = "<group>"; };
-		4F5E3BD58C427F669DE7352A3225A1B8 /* Retriable-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Retriable-macOS.xcconfig"; path = "../Retriable-macOS/Retriable-macOS.xcconfig"; sourceTree = "<group>"; };
-		551B0A326DD99DDF83139895EFEF5FE1 /* Pods-ShortenedURLExpander tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShortenedURLExpander tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5BC9E037A2756722232E5B3150ADB89C /* Pods-ShortenedURLExpander tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShortenedURLExpander tvOS-resources.sh"; sourceTree = "<group>"; };
-		5DC803448CC48FCF5BF87337DFC6B6C1 /* Retriable-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Retriable-watchOS.modulemap"; path = "../Retriable-watchOS/Retriable-watchOS.modulemap"; sourceTree = "<group>"; };
-		5ECDF81280704048111257EA05DB2C88 /* Pods-ShortenedURLExpander tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShortenedURLExpander tvOS-dummy.m"; sourceTree = "<group>"; };
-		60BEC251938912C080F8E844F8CED308 /* Retriable-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Retriable-iOS-umbrella.h"; sourceTree = "<group>"; };
-		626692FD2C90559D0797FE1F79443F6E /* Pods-ShortenedURLExpander tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		65465551D71DA56EEDCE2BFDF9483914 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		66B5776B3A85270458D8911F589D3697 /* Pods_ShortenedURLExpander_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ShortenedURLExpander_iOS_Example.framework; path = "Pods-ShortenedURLExpander iOS Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		66CA7641264BA2C7A52BF32C812C79BD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		673B032B593C944654B4CF3832EDBECD /* Pods-ShortenedURLExpander iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander iOS.release.xcconfig"; sourceTree = "<group>"; };
-		694E024FB8E360CF794E5598D03C52BA /* Retriable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Retriable.h; path = Retriable/Retriable.h; sourceTree = "<group>"; };
-		6A75579425DC7EF2B9FA049F484C71ED /* Pods-ShortenedURLExpander iOS Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortenedURLExpander iOS Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		6FD2A354A7CC830FB813CA83BC66BF1F /* Pods-ShortenedURLExpander tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShortenedURLExpander tvOS-umbrella.h"; sourceTree = "<group>"; };
-		7161249CB4C51B7FB059B93FCECC8B39 /* Pods-ShortenedURLExpander watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShortenedURLExpander watchOS-dummy.m"; sourceTree = "<group>"; };
-		7261605951A16FB6851A95904DF4D77B /* Retriable-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-tvOS-prefix.pch"; path = "../Retriable-tvOS/Retriable-tvOS-prefix.pch"; sourceTree = "<group>"; };
-		72E5ED677777B3C2D057C72460F27A8B /* Pods_ShortenedURLExpander_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ShortenedURLExpander_macOS.framework; path = "Pods-ShortenedURLExpander macOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		74B42C5D975CB04E601257EC5AEEEE91 /* Retriable-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Retriable-tvOS-dummy.m"; path = "../Retriable-tvOS/Retriable-tvOS-dummy.m"; sourceTree = "<group>"; };
-		7E5918B07AC232B19B7DF6C2EA954078 /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Retriable.framework; path = "Retriable-tvOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FC6334EFE5935AB25A7840334FCEE47 /* Pods-ShortenedURLExpander tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShortenedURLExpander tvOS.modulemap"; sourceTree = "<group>"; };
-		82B7CB496D7646EF72778E2E986718CF /* Pods-ShortenedURLExpander iOS Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShortenedURLExpander iOS Example-frameworks.sh"; sourceTree = "<group>"; };
-		856387A2DAC0C4FE2917B96C13FDB28C /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Retriable.framework; path = "Retriable-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		85C1300DA29D49B6F7389C1B75D34221 /* Pods-ShortenedURLExpander watchOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortenedURLExpander watchOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		85F93C246B0E68EAB0C0B313B742B1F1 /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Retriable.framework; path = "Retriable-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		86BBDBA43ACA7A59569B2612178B5A87 /* Pods-ShortenedURLExpander iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander iOS Example.release.xcconfig"; sourceTree = "<group>"; };
-		886569352368CD84CD7C3BBA11D459E7 /* Retriable-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Retriable-watchOS-dummy.m"; path = "../Retriable-watchOS/Retriable-watchOS-dummy.m"; sourceTree = "<group>"; };
-		89DEADBB7C2C7F48655AFC5D89896562 /* Pods-ShortenedURLExpander iOS Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShortenedURLExpander iOS Example.modulemap"; sourceTree = "<group>"; };
-		8C1BBD5685590C956341FAA9CAC14AC6 /* Pods-ShortenedURLExpander watchOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShortenedURLExpander watchOS-resources.sh"; sourceTree = "<group>"; };
-		8F9553F1D6CD372CC2D460FE714C2145 /* Pods-ShortenedURLExpander iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShortenedURLExpander iOS-umbrella.h"; sourceTree = "<group>"; };
-		8FE5C6499F662746599A9C44E3FC9AC2 /* Pods-ShortenedURLExpander watchOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShortenedURLExpander watchOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		964C6701524EB36D29B1C1FAA161D8B8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Retriable-tvOS/Info.plist"; sourceTree = "<group>"; };
-		9BEA725946F18CB84E67C3FD4F7874C9 /* Pods-ShortenedURLExpander iOS Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShortenedURLExpander iOS Example-dummy.m"; sourceTree = "<group>"; };
-		A05871C7441A2B54F53C12D8A5B24B09 /* Pods-ShortenedURLExpander tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortenedURLExpander tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
-		A15AF345020118810ADB87597E1F6202 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Retriable-watchOS/Info.plist"; sourceTree = "<group>"; };
-		A2E8AC686E83EC06EAB603A897AB18DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS3.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		A720E217CE2EDC551E6365642691262A /* Pods-ShortenedURLExpander iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShortenedURLExpander iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A8B3DBF0E64D760B822B7161CB250BDD /* Retriable-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Retriable-tvOS.xcconfig"; path = "../Retriable-tvOS/Retriable-tvOS.xcconfig"; sourceTree = "<group>"; };
-		AAF9C2E3FFED999030AB48564FBCFACC /* Retriable-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-macOS-prefix.pch"; path = "../Retriable-macOS/Retriable-macOS-prefix.pch"; sourceTree = "<group>"; };
-		AB3B900979CF190F8F69327B53B21A03 /* Retriable-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-watchOS-prefix.pch"; path = "../Retriable-watchOS/Retriable-watchOS-prefix.pch"; sourceTree = "<group>"; };
-		AB646E7553F6DA0FB0A76B7182FBCC53 /* RetriableOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RetriableOperation.m; path = Retriable/RetriableOperation.m; sourceTree = "<group>"; };
-		ABC9C21C575362D9029989B89D1DA6EA /* Retriable-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Retriable-macOS-dummy.m"; path = "../Retriable-macOS/Retriable-macOS-dummy.m"; sourceTree = "<group>"; };
-		AE2AA3FB8FE4BFB7EA65374EFB9B1B43 /* Retriable-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-tvOS-umbrella.h"; path = "../Retriable-tvOS/Retriable-tvOS-umbrella.h"; sourceTree = "<group>"; };
-		AE5EB0C8EEF97B833A0ACE4B58C2939B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0DADB7DFFB1BC6150F349DC03482A35 /* Pods-ShortenedURLExpander macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShortenedURLExpander macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B0DEC424D076C7A012F94DBE5F4B2A3E /* Pods_ShortenedURLExpander_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ShortenedURLExpander_iOS.framework; path = "Pods-ShortenedURLExpander iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B18A9C071BF611F40BA8B886C8820D8F /* Retriable-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Retriable-iOS-prefix.pch"; sourceTree = "<group>"; };
-		B6B4D2F4F0503D505E31FE0A7F4269B0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BAD316F93025149F9E68A9C0F78C67F7 /* Pods-ShortenedURLExpander iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BCF71023515CED172C0F66CF64E38794 /* Pods-ShortenedURLExpander macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander macOS.release.xcconfig"; sourceTree = "<group>"; };
-		C26BEC235307F7C59BE98284B6E05304 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C2B43E37B526D4BDBF0ADC1BE3ABD912 /* RetriableOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RetriableOperation.h; path = Retriable/RetriableOperation.h; sourceTree = "<group>"; };
-		C6CE9C7F10408A6D12FBABC4CBA16C10 /* Pods-ShortenedURLExpander macOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShortenedURLExpander macOS-resources.sh"; sourceTree = "<group>"; };
-		C9EB5A3E91AD8A54414FC88CF9695AFE /* Retriable-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Retriable-watchOS.xcconfig"; path = "../Retriable-watchOS/Retriable-watchOS.xcconfig"; sourceTree = "<group>"; };
-		CAB1B36E2F5E04B60D0B38AAAB6BE1AA /* Retriable-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Retriable-iOS-dummy.m"; sourceTree = "<group>"; };
-		D02AFDFAB35EAFECF1635EB0151000D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D7B75662DEF84B2B6E01F9C5DC61A305 /* Pods-ShortenedURLExpander iOS Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShortenedURLExpander iOS Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D995344B5565C2A7DE96FC9967B78299 /* Retriable-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Retriable-tvOS.modulemap"; path = "../Retriable-tvOS/Retriable-tvOS.modulemap"; sourceTree = "<group>"; };
-		E41C45C7506663DF8735D1B056AC7A69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Retriable-macOS/Info.plist"; sourceTree = "<group>"; };
-		E8ACC74AEA993A3F00D889AFD5A4A4E3 /* Pods-ShortenedURLExpander iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		ED324DFA48C9773F79A3B48BF6B62C3D /* Pods-ShortenedURLExpander macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander macOS.debug.xcconfig"; sourceTree = "<group>"; };
-		EF3E002448C73F51C9F2DA0A0001F673 /* Pods_ShortenedURLExpander_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ShortenedURLExpander_watchOS.framework; path = "Pods-ShortenedURLExpander watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F1230F67538A8FF0D56F75D1952C9BA3 /* Retriable-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-macOS-umbrella.h"; path = "../Retriable-macOS/Retriable-macOS-umbrella.h"; sourceTree = "<group>"; };
-		F33F4357AEB51328DAAAC4516B07D7DB /* Pods-ShortenedURLExpander iOS Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShortenedURLExpander iOS Example-resources.sh"; sourceTree = "<group>"; };
-		FBD4C743DEFC701D88ACAAF963B52CF4 /* Pods-ShortenedURLExpander iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShortenedURLExpander iOS-resources.sh"; sourceTree = "<group>"; };
-		FD652D4D8DE04071EE362434F7F9E3EA /* Pods-ShortenedURLExpander watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander watchOS.release.xcconfig"; sourceTree = "<group>"; };
-		FF7087237429161137100942CB33CF2F /* Pods-ShortenedURLExpander macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShortenedURLExpander macOS.modulemap"; sourceTree = "<group>"; };
-		FF76489755C3619D95BBD97BE374FB64 /* Pods-ShortenedURLExpander macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShortenedURLExpander macOS-umbrella.h"; sourceTree = "<group>"; };
+		025292CEF972A698FA07C8ED75CA437C /* Pods-ShortenedURLExpander macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShortenedURLExpander macOS-dummy.m"; sourceTree = "<group>"; };
+		03BDE174996AE88171418E8692443112 /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Retriable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B9C9B0D7589B8DA54D4EDB76DC5D29A /* Pods-ShortenedURLExpander iOS Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortenedURLExpander iOS Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0DAB254A721DBC2AE27DAFF86D710003 /* Pods-ShortenedURLExpander watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShortenedURLExpander watchOS.modulemap"; sourceTree = "<group>"; };
+		16C8B5EB9E9B7F5182D6D4895CB8DCFC /* Retriable-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Retriable-iOS-prefix.pch"; sourceTree = "<group>"; };
+		16DEA9D73FCFD0A5F905481CE472B481 /* Pods-ShortenedURLExpander iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortenedURLExpander iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		17603A20A18E1FFB20D70EF85BC8D210 /* Pods-ShortenedURLExpander macOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortenedURLExpander macOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		1798D3EE3D1DE7582D0C08E9EC1C68F2 /* Pods-ShortenedURLExpander tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortenedURLExpander tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D7A3EB9EB2C39996496A5B217BCA1BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1DB55CDF455397293AC3E95B0ABEC1B8 /* Retriable-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Retriable-watchOS.xcconfig"; path = "../Retriable-watchOS/Retriable-watchOS.xcconfig"; sourceTree = "<group>"; };
+		1E7A84C6D570B8B49FB61D8BA1CEFA43 /* Retriable-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-watchOS-umbrella.h"; path = "../Retriable-watchOS/Retriable-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		1ECCBB41112D933B4F8301D4BC984A78 /* Retriable-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-tvOS-prefix.pch"; path = "../Retriable-tvOS/Retriable-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		1ECD55093DFCCA47EBDCF3B39E574F0A /* Pods-ShortenedURLExpander iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander iOS.release.xcconfig"; sourceTree = "<group>"; };
+		256F88FAC97A66C6A6681D9B90F37FB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		2ADC0E0F0E06732718570C754720E512 /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Retriable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B0DE33740661EA893C65C5E3635C9C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2DED2CF9A5144787E0EFD608EC357642 /* Pods-ShortenedURLExpander tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShortenedURLExpander tvOS.modulemap"; sourceTree = "<group>"; };
+		30F7CE7045A060E86BDE2A5713FA6E6B /* Retriable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Retriable.h; path = Retriable/Retriable.h; sourceTree = "<group>"; };
+		337A062C86811C0013D8AF6177E01262 /* Retriable-tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Retriable-tvOS-Info.plist"; path = "../Retriable-tvOS/Retriable-tvOS-Info.plist"; sourceTree = "<group>"; };
+		33B62F91A94939E2E191A2470A670460 /* Pods-ShortenedURLExpander watchOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShortenedURLExpander watchOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3460CC37F2F24EEBCC5361A79C65A4DA /* Retriable-macOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-macOS-prefix.pch"; path = "../Retriable-macOS/Retriable-macOS-prefix.pch"; sourceTree = "<group>"; };
+		3E649EC515BE051748C5E52B34003CC6 /* Retriable-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-watchOS-prefix.pch"; path = "../Retriable-watchOS/Retriable-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		4152DFCC0BD68058D6AAC235AE083D46 /* RetriableOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RetriableOperation.h; path = Retriable/RetriableOperation.h; sourceTree = "<group>"; };
+		41B1826343E321C48724A9CBF519426A /* Pods-ShortenedURLExpander watchOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortenedURLExpander watchOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		45299EBDFAAB04ACC919D23E7EBC7A26 /* Pods-ShortenedURLExpander macOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShortenedURLExpander macOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4649D9981E10F498A2B14755E193FEAE /* Retriable-macOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Retriable-macOS.xcconfig"; path = "../Retriable-macOS/Retriable-macOS.xcconfig"; sourceTree = "<group>"; };
+		498B9D554C1D4169F7CB753C3A7B30B7 /* Pods-ShortenedURLExpander iOS Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ShortenedURLExpander iOS Example-frameworks.sh"; sourceTree = "<group>"; };
+		4AE3399C6C54D093BFFAD0E1EE0BBA17 /* Pods-ShortenedURLExpander tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShortenedURLExpander tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		53A0D9D6306591F075D2D3DA2C19CD89 /* Retriable-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Retriable-iOS-dummy.m"; sourceTree = "<group>"; };
+		597975FE857026FEF7302A396EDC63B4 /* Retriable-macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Retriable-macOS.modulemap"; path = "../Retriable-macOS/Retriable-macOS.modulemap"; sourceTree = "<group>"; };
+		59811237A43873C5BFACA67222AA04BE /* Pods-ShortenedURLExpander iOS Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShortenedURLExpander iOS Example-dummy.m"; sourceTree = "<group>"; };
+		5A6568877D74A25E004A226BAA263F9A /* Pods-ShortenedURLExpander macOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander macOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5BFA23E9E4340DE994CF390FB3949C5D /* Retriable-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Retriable-watchOS-dummy.m"; path = "../Retriable-watchOS/Retriable-watchOS-dummy.m"; sourceTree = "<group>"; };
+		5D5A4F8495E4CA17BD2147D4E177B181 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		640BFCD15C8106937C8378DBCF0792D3 /* Retriable-macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-macOS-umbrella.h"; path = "../Retriable-macOS/Retriable-macOS-umbrella.h"; sourceTree = "<group>"; };
+		69F2282A72EDA8592D28AC5FF6380421 /* Pods-ShortenedURLExpander tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShortenedURLExpander tvOS-umbrella.h"; sourceTree = "<group>"; };
+		70883AB401368007A4EE18CAF611B312 /* Retriable-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Retriable-watchOS.modulemap"; path = "../Retriable-watchOS/Retriable-watchOS.modulemap"; sourceTree = "<group>"; };
+		71E42FD319173CB3B298D9F2887DFF70 /* Pods-ShortenedURLExpander iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShortenedURLExpander iOS-umbrella.h"; sourceTree = "<group>"; };
+		72002FCC3D4810C0E3D63729BA75ABAD /* RetriableOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RetriableOperation.m; path = Retriable/RetriableOperation.m; sourceTree = "<group>"; };
+		76DB4E483D5EE2090853B60908515C99 /* Pods-ShortenedURLExpander iOS Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander iOS Example.release.xcconfig"; sourceTree = "<group>"; };
+		7D985CCA839F0BCC5AAD82AD69A90907 /* Pods-ShortenedURLExpander iOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShortenedURLExpander iOS-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F3F4B3A8D5C61C4A5CAE90A70814864 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8558C1DECD6B878A8CA6F4BB5E79B923 /* Pods-ShortenedURLExpander iOS Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortenedURLExpander iOS Example-Info.plist"; sourceTree = "<group>"; };
+		862A9718C26317FFCB3C721B58485415 /* Retriable-macOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Retriable-macOS-dummy.m"; path = "../Retriable-macOS/Retriable-macOS-dummy.m"; sourceTree = "<group>"; };
+		8AF874E3054EE3555A3C21DE5F67F596 /* Pods-ShortenedURLExpander macOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShortenedURLExpander macOS.modulemap"; sourceTree = "<group>"; };
+		9064322243822C97522356B4F1D1B71B /* Pods-ShortenedURLExpander iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortenedURLExpander iOS-Info.plist"; sourceTree = "<group>"; };
+		952E200696FC43A25D872DE32AB52AD4 /* Pods_ShortenedURLExpander_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShortenedURLExpander_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		97475DB465F5D51F2956F269DE0D53DF /* Pods-ShortenedURLExpander iOS Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander iOS Example.debug.xcconfig"; sourceTree = "<group>"; };
+		98CE1E606D2AD040F59C40D6540FDE6A /* Pods-ShortenedURLExpander tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShortenedURLExpander tvOS-dummy.m"; sourceTree = "<group>"; };
+		9942978C3CF3D3683A238A6082B0C256 /* Pods-ShortenedURLExpander iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShortenedURLExpander iOS-dummy.m"; sourceTree = "<group>"; };
+		9A4BDFCB0E96A57389CF0014EBF18642 /* Retriable-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Retriable-tvOS-umbrella.h"; path = "../Retriable-tvOS/Retriable-tvOS-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A42C8225CE07F2D9ECC7810EF5C4E2BA /* Pods-ShortenedURLExpander iOS Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShortenedURLExpander iOS Example.modulemap"; sourceTree = "<group>"; };
+		A6829FC1F9CC6C05B8E73477766AA088 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		A924B618E54F85004DB17C56CA1FF11C /* Retriable-watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Retriable-watchOS-Info.plist"; path = "../Retriable-watchOS/Retriable-watchOS-Info.plist"; sourceTree = "<group>"; };
+		A9C02A4F0B93DEE5954B9CAFBAB8D997 /* Pods-ShortenedURLExpander macOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander macOS.release.xcconfig"; sourceTree = "<group>"; };
+		ABC41BA258C53EC3EE76B4368DCEF952 /* Pods_ShortenedURLExpander_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShortenedURLExpander_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE1B58899ADF773AE95DD6ED8162BE76 /* Pods-ShortenedURLExpander iOS Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShortenedURLExpander iOS Example-umbrella.h"; sourceTree = "<group>"; };
+		B019DC7C254F68D5870509E144E20050 /* Pods-ShortenedURLExpander macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortenedURLExpander macOS-Info.plist"; sourceTree = "<group>"; };
+		B4AFBB2EB46FD648748808357892B363 /* Pods-ShortenedURLExpander iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ShortenedURLExpander iOS.modulemap"; sourceTree = "<group>"; };
+		B749375F62E0DC339D46C3AC0A8A88F7 /* Pods-ShortenedURLExpander iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		B87B79C6DA914D79A5A090BD93076C49 /* Pods_ShortenedURLExpander_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShortenedURLExpander_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B89A4013ED23F453E2D2791D4CC9088D /* Pods_ShortenedURLExpander_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShortenedURLExpander_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD7D72D5FBDEA97BD13B23C94BB8AEC /* Pods-ShortenedURLExpander tvOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortenedURLExpander tvOS-Info.plist"; sourceTree = "<group>"; };
+		C7A12DB94D560B7092F3C4805252290C /* Retriable-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Retriable-tvOS.xcconfig"; path = "../Retriable-tvOS/Retriable-tvOS.xcconfig"; sourceTree = "<group>"; };
+		C9B32D44F4F5C568FAD57DDF8AF61D53 /* Retriable-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Retriable-iOS-Info.plist"; sourceTree = "<group>"; };
+		CB7BE062EB25280950D645EE2A8E7080 /* Retriable-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Retriable-tvOS-dummy.m"; path = "../Retriable-tvOS/Retriable-tvOS-dummy.m"; sourceTree = "<group>"; };
+		CECDF4294DE51BE1EDD20253AC9B256A /* Pods-ShortenedURLExpander watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShortenedURLExpander watchOS-umbrella.h"; sourceTree = "<group>"; };
+		D0308C4FD0CBFC43FCC951A7ACB61A3C /* Pods_ShortenedURLExpander_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShortenedURLExpander_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5DE99FE27EE639D2DD51088B6C90FE8 /* Pods-ShortenedURLExpander watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		D6C0AC542A6642EA154C16FDAEA4E354 /* Retriable-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Retriable-iOS.xcconfig"; sourceTree = "<group>"; };
+		D6EA0D87DCF039AD376EDE4859883E03 /* Retriable-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Retriable-iOS-umbrella.h"; sourceTree = "<group>"; };
+		D8E82A0D5F7B9C158064D0CD93EA6515 /* Pods-ShortenedURLExpander watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ShortenedURLExpander watchOS-Info.plist"; sourceTree = "<group>"; };
+		D94ECD76531D294D4468B4ED9A21C53D /* Retriable-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Retriable-tvOS.modulemap"; path = "../Retriable-tvOS/Retriable-tvOS.modulemap"; sourceTree = "<group>"; };
+		DA463467BED7615F2522EE1924F3B0D6 /* Pods-ShortenedURLExpander macOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ShortenedURLExpander macOS-umbrella.h"; sourceTree = "<group>"; };
+		DD3B98F6C383E1C8D3F95500DAC1E5AF /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Retriable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B7E2B2E06FF68E0B88241EAE77DD0D /* Pods-ShortenedURLExpander iOS Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ShortenedURLExpander iOS Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E96F548A93E14E83DC1229D288F5DB52 /* Retriable-macOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "Retriable-macOS-Info.plist"; path = "../Retriable-macOS/Retriable-macOS-Info.plist"; sourceTree = "<group>"; };
+		EA11C667DA3BDED7E2CD4C404459B711 /* Retriable-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Retriable-iOS.modulemap"; sourceTree = "<group>"; };
+		EA694BCD40A1483B90D5812B96712284 /* Pods-ShortenedURLExpander watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ShortenedURLExpander watchOS-dummy.m"; sourceTree = "<group>"; };
+		F0004306BFEFBA3CA0CA20163B6F1A5A /* Pods-ShortenedURLExpander watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander watchOS.release.xcconfig"; sourceTree = "<group>"; };
+		F1CD4DB3DDDD43C7D0CA84C0FF7A2919 /* Pods-ShortenedURLExpander tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F76478FC702ADCC3C4DDA3D3D7F027BD /* Retriable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Retriable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEB3B958A59C6FFC690109869C5CF06 /* Pods-ShortenedURLExpander tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ShortenedURLExpander tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		022B06B21DC0AFE3B230BA72CE80A611 /* Frameworks */ = {
+		03113570B636E05CEB88C8D416FDBCA6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC51301D0803EF24ABC64BA29B4D5AC5 /* Foundation.framework in Frameworks */,
+				912DFC61714667581DF801B80E9B4178 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52C32A90192D59001C4F7F559E7E7A93 /* Frameworks */ = {
+		3C57FA15C8A97263CA0441269678E4E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94E4F248899C17557F7320CDC147C696 /* Foundation.framework in Frameworks */,
-				DCEB24E0DE1FEA4C383BBEA5A21DD1D4 /* UIKit.framework in Frameworks */,
+				724B52DAD20B4BDD1DCD707935046370 /* Foundation.framework in Frameworks */,
+				6C6203924CE16CEF0A30F8439DEC10A8 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		829D7037FCD12DD0EE03D8284BD96C4B /* Frameworks */ = {
+		4AD10801CC7EB6371F753CDAD7EE4C37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DA2B4F5BBEA673CE9E5C389D35C811B /* Cocoa.framework in Frameworks */,
+				7417861C7F7CC16C6EC4D8AAC1483FDB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		912FDF770E00E5B51CF028757927BC39 /* Frameworks */ = {
+		742969527C3C56DD365E356C20F55B4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				965D7DF02EA9CD195C3C66F615B41D03 /* Cocoa.framework in Frameworks */,
+				AB002B67CC68B99CC585DB7B6C4C4947 /* Foundation.framework in Frameworks */,
+				11BFB263BEB309EC3269FDFC17CE5ADB /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A635873994BF71A73E4D284E3F66C838 /* Frameworks */ = {
+		81CA26B910896A48C7F458AFD4207252 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8025D6A48DB5A1E479C2FED1F99F26DF /* Foundation.framework in Frameworks */,
+				92AF1A6F3F9121D6BCD7C10CF6C06754 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AA9B31AFADE3D2BD41A40D07CD1DA41F /* Frameworks */ = {
+		A095828DBBDE31F520DEFA25A4210E4C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				556005E875CD0FAC22309D66CE837EF7 /* Foundation.framework in Frameworks */,
+				1AC26B8DD1DB1F8A89A8B281EDB5630B /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B09682D2CD10727C695394BA40B78E25 /* Frameworks */ = {
+		A9D97E8EF3307E86F041ABA16D3CC397 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB0F308F1E93E2899BDBDEA82D254CBC /* Foundation.framework in Frameworks */,
+				98B0938E6002C697306D3F13BB792402 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0187F51D586E08E1B866C9A4F32A1B4 /* Frameworks */ = {
+		B1B0ED9A151EC1651838695F3A8BF56D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E4BCC3FC16481DD28F972A9ED83A5D0 /* Foundation.framework in Frameworks */,
-				B3ED515F151BD7C19651724066825D21 /* UIKit.framework in Frameworks */,
+				A79994FEDDF9E061A412E50BA226A3BF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F8D272087E1A150D167C6B0D4FA6C854 /* Frameworks */ = {
+		DE7D63AAFBC4EE0716342FF5BCD06CBA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FDC507546C8CF246F5461D463711AFC /* Foundation.framework in Frameworks */,
+				32246FCB0380348C3EAD6F385E40AC77 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		182E46C51953EE41274A79C72961D525 /* Pods-ShortenedURLExpander iOS Example */ = {
+		0FB1B17B7AA8E7E486FA06BF4CE3AD0B /* OS X */ = {
 			isa = PBXGroup;
 			children = (
-				B6B4D2F4F0503D505E31FE0A7F4269B0 /* Info.plist */,
-				89DEADBB7C2C7F48655AFC5D89896562 /* Pods-ShortenedURLExpander iOS Example.modulemap */,
-				D7B75662DEF84B2B6E01F9C5DC61A305 /* Pods-ShortenedURLExpander iOS Example-acknowledgements.markdown */,
-				6A75579425DC7EF2B9FA049F484C71ED /* Pods-ShortenedURLExpander iOS Example-acknowledgements.plist */,
-				9BEA725946F18CB84E67C3FD4F7874C9 /* Pods-ShortenedURLExpander iOS Example-dummy.m */,
-				82B7CB496D7646EF72778E2E986718CF /* Pods-ShortenedURLExpander iOS Example-frameworks.sh */,
-				F33F4357AEB51328DAAAC4516B07D7DB /* Pods-ShortenedURLExpander iOS Example-resources.sh */,
-				179502E7B31353344D88B235B6253353 /* Pods-ShortenedURLExpander iOS Example-umbrella.h */,
-				BAD316F93025149F9E68A9C0F78C67F7 /* Pods-ShortenedURLExpander iOS Example.debug.xcconfig */,
-				86BBDBA43ACA7A59569B2612178B5A87 /* Pods-ShortenedURLExpander iOS Example.release.xcconfig */,
-			);
-			name = "Pods-ShortenedURLExpander iOS Example";
-			path = "Target Support Files/Pods-ShortenedURLExpander iOS Example";
-			sourceTree = "<group>";
-		};
-		1994D4FAA72822ED139110E4AFA6B2EC /* Pods-ShortenedURLExpander tvOS */ = {
-			isa = PBXGroup;
-			children = (
-				C26BEC235307F7C59BE98284B6E05304 /* Info.plist */,
-				7FC6334EFE5935AB25A7840334FCEE47 /* Pods-ShortenedURLExpander tvOS.modulemap */,
-				551B0A326DD99DDF83139895EFEF5FE1 /* Pods-ShortenedURLExpander tvOS-acknowledgements.markdown */,
-				A05871C7441A2B54F53C12D8A5B24B09 /* Pods-ShortenedURLExpander tvOS-acknowledgements.plist */,
-				5ECDF81280704048111257EA05DB2C88 /* Pods-ShortenedURLExpander tvOS-dummy.m */,
-				5BC9E037A2756722232E5B3150ADB89C /* Pods-ShortenedURLExpander tvOS-resources.sh */,
-				6FD2A354A7CC830FB813CA83BC66BF1F /* Pods-ShortenedURLExpander tvOS-umbrella.h */,
-				626692FD2C90559D0797FE1F79443F6E /* Pods-ShortenedURLExpander tvOS.debug.xcconfig */,
-				2B7905B9D2CA42FDF3132FB3D2CAF40F /* Pods-ShortenedURLExpander tvOS.release.xcconfig */,
-			);
-			name = "Pods-ShortenedURLExpander tvOS";
-			path = "Target Support Files/Pods-ShortenedURLExpander tvOS";
-			sourceTree = "<group>";
-		};
-		202DB3E6D2ECD6B7617252A91585E0F6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B0DEC424D076C7A012F94DBE5F4B2A3E /* Pods_ShortenedURLExpander_iOS.framework */,
-				66B5776B3A85270458D8911F589D3697 /* Pods_ShortenedURLExpander_iOS_Example.framework */,
-				72E5ED677777B3C2D057C72460F27A8B /* Pods_ShortenedURLExpander_macOS.framework */,
-				21FD2F3FFBEA4D9F25ACD9B51344ECD8 /* Pods_ShortenedURLExpander_tvOS.framework */,
-				EF3E002448C73F51C9F2DA0A0001F673 /* Pods_ShortenedURLExpander_watchOS.framework */,
-				85F93C246B0E68EAB0C0B313B742B1F1 /* Retriable.framework */,
-				7E5918B07AC232B19B7DF6C2EA954078 /* Retriable.framework */,
-				381F33A38A3FED9C21135F41F43EB24D /* Retriable.framework */,
-				856387A2DAC0C4FE2917B96C13FDB28C /* Retriable.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2D9FFC744E477F7573ECDAE4D22B6C54 /* OS X */ = {
-			isa = PBXGroup;
-			children = (
-				232B3B09E1B2D143A3BB809C46BB7A12 /* Cocoa.framework */,
+				A6829FC1F9CC6C05B8E73477766AA088 /* Cocoa.framework */,
 			);
 			name = "OS X";
 			sourceTree = "<group>";
 		};
-		3AB3538B6A289A0AEC2A8C64B69B17B5 /* Pods-ShortenedURLExpander watchOS */ = {
+		124D1375423A151263AD84B4B756069F /* watchOS */ = {
 			isa = PBXGroup;
 			children = (
-				66CA7641264BA2C7A52BF32C812C79BD /* Info.plist */,
-				4D945DC3B1B9D51A0884F866C5AF8F5B /* Pods-ShortenedURLExpander watchOS.modulemap */,
-				8FE5C6499F662746599A9C44E3FC9AC2 /* Pods-ShortenedURLExpander watchOS-acknowledgements.markdown */,
-				85C1300DA29D49B6F7389C1B75D34221 /* Pods-ShortenedURLExpander watchOS-acknowledgements.plist */,
-				7161249CB4C51B7FB059B93FCECC8B39 /* Pods-ShortenedURLExpander watchOS-dummy.m */,
-				8C1BBD5685590C956341FAA9CAC14AC6 /* Pods-ShortenedURLExpander watchOS-resources.sh */,
-				14AB869D743D8BDB5E26A541276FC1F5 /* Pods-ShortenedURLExpander watchOS-umbrella.h */,
-				0632AA9BCA306D6DE68EF77DC3BB8EE2 /* Pods-ShortenedURLExpander watchOS.debug.xcconfig */,
-				FD652D4D8DE04071EE362434F7F9E3EA /* Pods-ShortenedURLExpander watchOS.release.xcconfig */,
+				5D5A4F8495E4CA17BD2147D4E177B181 /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		36DA6086838DF5194BDB664E422C011E /* Pods-ShortenedURLExpander watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				0DAB254A721DBC2AE27DAFF86D710003 /* Pods-ShortenedURLExpander watchOS.modulemap */,
+				33B62F91A94939E2E191A2470A670460 /* Pods-ShortenedURLExpander watchOS-acknowledgements.markdown */,
+				41B1826343E321C48724A9CBF519426A /* Pods-ShortenedURLExpander watchOS-acknowledgements.plist */,
+				EA694BCD40A1483B90D5812B96712284 /* Pods-ShortenedURLExpander watchOS-dummy.m */,
+				D8E82A0D5F7B9C158064D0CD93EA6515 /* Pods-ShortenedURLExpander watchOS-Info.plist */,
+				CECDF4294DE51BE1EDD20253AC9B256A /* Pods-ShortenedURLExpander watchOS-umbrella.h */,
+				D5DE99FE27EE639D2DD51088B6C90FE8 /* Pods-ShortenedURLExpander watchOS.debug.xcconfig */,
+				F0004306BFEFBA3CA0CA20163B6F1A5A /* Pods-ShortenedURLExpander watchOS.release.xcconfig */,
 			);
 			name = "Pods-ShortenedURLExpander watchOS";
 			path = "Target Support Files/Pods-ShortenedURLExpander watchOS";
 			sourceTree = "<group>";
 		};
-		3ED7EDCDD396F1CB4AC2D1EE494EC1A2 /* Pods */ = {
+		3D2828D19DAAC950AB0AEF76890AE17D /* Pods-ShortenedURLExpander macOS */ = {
 			isa = PBXGroup;
 			children = (
-				507831FF2EDCE436C9BF5EB9A096889E /* Retriable */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		457B3DB294D8DC3A6554070C55ADC2B0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				964C6701524EB36D29B1C1FAA161D8B8 /* Info.plist */,
-				116EBDA121EE07DDCD676F0E6E2B8973 /* Info.plist */,
-				E41C45C7506663DF8735D1B056AC7A69 /* Info.plist */,
-				A15AF345020118810ADB87597E1F6202 /* Info.plist */,
-				34D65BE483866F89E0632E09F7C383D8 /* Retriable-iOS.modulemap */,
-				2876CA4071077D7C626FF6359E9AB743 /* Retriable-iOS.xcconfig */,
-				CAB1B36E2F5E04B60D0B38AAAB6BE1AA /* Retriable-iOS-dummy.m */,
-				B18A9C071BF611F40BA8B886C8820D8F /* Retriable-iOS-prefix.pch */,
-				60BEC251938912C080F8E844F8CED308 /* Retriable-iOS-umbrella.h */,
-				4F581128D8E1D320692CA33EA6EE32E7 /* Retriable-macOS.modulemap */,
-				4F5E3BD58C427F669DE7352A3225A1B8 /* Retriable-macOS.xcconfig */,
-				ABC9C21C575362D9029989B89D1DA6EA /* Retriable-macOS-dummy.m */,
-				AAF9C2E3FFED999030AB48564FBCFACC /* Retriable-macOS-prefix.pch */,
-				F1230F67538A8FF0D56F75D1952C9BA3 /* Retriable-macOS-umbrella.h */,
-				D995344B5565C2A7DE96FC9967B78299 /* Retriable-tvOS.modulemap */,
-				A8B3DBF0E64D760B822B7161CB250BDD /* Retriable-tvOS.xcconfig */,
-				74B42C5D975CB04E601257EC5AEEEE91 /* Retriable-tvOS-dummy.m */,
-				7261605951A16FB6851A95904DF4D77B /* Retriable-tvOS-prefix.pch */,
-				AE2AA3FB8FE4BFB7EA65374EFB9B1B43 /* Retriable-tvOS-umbrella.h */,
-				5DC803448CC48FCF5BF87337DFC6B6C1 /* Retriable-watchOS.modulemap */,
-				C9EB5A3E91AD8A54414FC88CF9695AFE /* Retriable-watchOS.xcconfig */,
-				886569352368CD84CD7C3BBA11D459E7 /* Retriable-watchOS-dummy.m */,
-				AB3B900979CF190F8F69327B53B21A03 /* Retriable-watchOS-prefix.pch */,
-				32B8CF242F4AE616F9E1201940DD5473 /* Retriable-watchOS-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Retriable-iOS";
-			sourceTree = "<group>";
-		};
-		507831FF2EDCE436C9BF5EB9A096889E /* Retriable */ = {
-			isa = PBXGroup;
-			children = (
-				694E024FB8E360CF794E5598D03C52BA /* Retriable.h */,
-				C2B43E37B526D4BDBF0ADC1BE3ABD912 /* RetriableOperation.h */,
-				AB646E7553F6DA0FB0A76B7182FBCC53 /* RetriableOperation.m */,
-				457B3DB294D8DC3A6554070C55ADC2B0 /* Support Files */,
-			);
-			name = Retriable;
-			path = Retriable;
-			sourceTree = "<group>";
-		};
-		5F7FFEB6EE01F95BB6D5EAEDE08ADB0C /* Pods-ShortenedURLExpander iOS */ = {
-			isa = PBXGroup;
-			children = (
-				AE5EB0C8EEF97B833A0ACE4B58C2939B /* Info.plist */,
-				14CA96CC0AEAD4999E9766BC1DDD99DD /* Pods-ShortenedURLExpander iOS.modulemap */,
-				A720E217CE2EDC551E6365642691262A /* Pods-ShortenedURLExpander iOS-acknowledgements.markdown */,
-				2D6CB29C4B97645D355F41F988249A58 /* Pods-ShortenedURLExpander iOS-acknowledgements.plist */,
-				3ECA5B5674D858122D8782C8C407C406 /* Pods-ShortenedURLExpander iOS-dummy.m */,
-				FBD4C743DEFC701D88ACAAF963B52CF4 /* Pods-ShortenedURLExpander iOS-resources.sh */,
-				8F9553F1D6CD372CC2D460FE714C2145 /* Pods-ShortenedURLExpander iOS-umbrella.h */,
-				E8ACC74AEA993A3F00D889AFD5A4A4E3 /* Pods-ShortenedURLExpander iOS.debug.xcconfig */,
-				673B032B593C944654B4CF3832EDBECD /* Pods-ShortenedURLExpander iOS.release.xcconfig */,
-			);
-			name = "Pods-ShortenedURLExpander iOS";
-			path = "Target Support Files/Pods-ShortenedURLExpander iOS";
-			sourceTree = "<group>";
-		};
-		6366EE523A50E0BA9DEA7F7CD1C69FD1 /* watchOS */ = {
-			isa = PBXGroup;
-			children = (
-				A2E8AC686E83EC06EAB603A897AB18DC /* Foundation.framework */,
-			);
-			name = watchOS;
-			sourceTree = "<group>";
-		};
-		6FF424F9E33129EBAAA691D3C7A23837 /* Pods-ShortenedURLExpander macOS */ = {
-			isa = PBXGroup;
-			children = (
-				D02AFDFAB35EAFECF1635EB0151000D1 /* Info.plist */,
-				FF7087237429161137100942CB33CF2F /* Pods-ShortenedURLExpander macOS.modulemap */,
-				B0DADB7DFFB1BC6150F349DC03482A35 /* Pods-ShortenedURLExpander macOS-acknowledgements.markdown */,
-				00753FF82CD31933C92A757E8BC83D06 /* Pods-ShortenedURLExpander macOS-acknowledgements.plist */,
-				269F80444E04BBB4A45D1130418080E8 /* Pods-ShortenedURLExpander macOS-dummy.m */,
-				C6CE9C7F10408A6D12FBABC4CBA16C10 /* Pods-ShortenedURLExpander macOS-resources.sh */,
-				FF76489755C3619D95BBD97BE374FB64 /* Pods-ShortenedURLExpander macOS-umbrella.h */,
-				ED324DFA48C9773F79A3B48BF6B62C3D /* Pods-ShortenedURLExpander macOS.debug.xcconfig */,
-				BCF71023515CED172C0F66CF64E38794 /* Pods-ShortenedURLExpander macOS.release.xcconfig */,
+				8AF874E3054EE3555A3C21DE5F67F596 /* Pods-ShortenedURLExpander macOS.modulemap */,
+				45299EBDFAAB04ACC919D23E7EBC7A26 /* Pods-ShortenedURLExpander macOS-acknowledgements.markdown */,
+				17603A20A18E1FFB20D70EF85BC8D210 /* Pods-ShortenedURLExpander macOS-acknowledgements.plist */,
+				025292CEF972A698FA07C8ED75CA437C /* Pods-ShortenedURLExpander macOS-dummy.m */,
+				B019DC7C254F68D5870509E144E20050 /* Pods-ShortenedURLExpander macOS-Info.plist */,
+				DA463467BED7615F2522EE1924F3B0D6 /* Pods-ShortenedURLExpander macOS-umbrella.h */,
+				5A6568877D74A25E004A226BAA263F9A /* Pods-ShortenedURLExpander macOS.debug.xcconfig */,
+				A9C02A4F0B93DEE5954B9CAFBAB8D997 /* Pods-ShortenedURLExpander macOS.release.xcconfig */,
 			);
 			name = "Pods-ShortenedURLExpander macOS";
 			path = "Target Support Files/Pods-ShortenedURLExpander macOS";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		45C8D2DD638C4D1F45769D8E4C76C7A9 /* Pods-ShortenedURLExpander tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				A0743DFFB6382AA1038805C5504D1280 /* Frameworks */,
-				3ED7EDCDD396F1CB4AC2D1EE494EC1A2 /* Pods */,
-				202DB3E6D2ECD6B7617252A91585E0F6 /* Products */,
-				9381210FCA69080570DAAD4B2221C201 /* Targets Support Files */,
+				2DED2CF9A5144787E0EFD608EC357642 /* Pods-ShortenedURLExpander tvOS.modulemap */,
+				4AE3399C6C54D093BFFAD0E1EE0BBA17 /* Pods-ShortenedURLExpander tvOS-acknowledgements.markdown */,
+				1798D3EE3D1DE7582D0C08E9EC1C68F2 /* Pods-ShortenedURLExpander tvOS-acknowledgements.plist */,
+				98CE1E606D2AD040F59C40D6540FDE6A /* Pods-ShortenedURLExpander tvOS-dummy.m */,
+				BCD7D72D5FBDEA97BD13B23C94BB8AEC /* Pods-ShortenedURLExpander tvOS-Info.plist */,
+				69F2282A72EDA8592D28AC5FF6380421 /* Pods-ShortenedURLExpander tvOS-umbrella.h */,
+				FEEB3B958A59C6FFC690109869C5CF06 /* Pods-ShortenedURLExpander tvOS.debug.xcconfig */,
+				F1CD4DB3DDDD43C7D0CA84C0FF7A2919 /* Pods-ShortenedURLExpander tvOS.release.xcconfig */,
 			);
+			name = "Pods-ShortenedURLExpander tvOS";
+			path = "Target Support Files/Pods-ShortenedURLExpander tvOS";
 			sourceTree = "<group>";
 		};
-		9381210FCA69080570DAAD4B2221C201 /* Targets Support Files */ = {
+		7ACF3D42D360A4D4E466CF68511DBB6E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				5F7FFEB6EE01F95BB6D5EAEDE08ADB0C /* Pods-ShortenedURLExpander iOS */,
-				182E46C51953EE41274A79C72961D525 /* Pods-ShortenedURLExpander iOS Example */,
-				6FF424F9E33129EBAAA691D3C7A23837 /* Pods-ShortenedURLExpander macOS */,
-				1994D4FAA72822ED139110E4AFA6B2EC /* Pods-ShortenedURLExpander tvOS */,
-				3AB3538B6A289A0AEC2A8C64B69B17B5 /* Pods-ShortenedURLExpander watchOS */,
+				EA11C667DA3BDED7E2CD4C404459B711 /* Retriable-iOS.modulemap */,
+				D6C0AC542A6642EA154C16FDAEA4E354 /* Retriable-iOS.xcconfig */,
+				53A0D9D6306591F075D2D3DA2C19CD89 /* Retriable-iOS-dummy.m */,
+				C9B32D44F4F5C568FAD57DDF8AF61D53 /* Retriable-iOS-Info.plist */,
+				16C8B5EB9E9B7F5182D6D4895CB8DCFC /* Retriable-iOS-prefix.pch */,
+				D6EA0D87DCF039AD376EDE4859883E03 /* Retriable-iOS-umbrella.h */,
+				597975FE857026FEF7302A396EDC63B4 /* Retriable-macOS.modulemap */,
+				4649D9981E10F498A2B14755E193FEAE /* Retriable-macOS.xcconfig */,
+				862A9718C26317FFCB3C721B58485415 /* Retriable-macOS-dummy.m */,
+				E96F548A93E14E83DC1229D288F5DB52 /* Retriable-macOS-Info.plist */,
+				3460CC37F2F24EEBCC5361A79C65A4DA /* Retriable-macOS-prefix.pch */,
+				640BFCD15C8106937C8378DBCF0792D3 /* Retriable-macOS-umbrella.h */,
+				D94ECD76531D294D4468B4ED9A21C53D /* Retriable-tvOS.modulemap */,
+				C7A12DB94D560B7092F3C4805252290C /* Retriable-tvOS.xcconfig */,
+				CB7BE062EB25280950D645EE2A8E7080 /* Retriable-tvOS-dummy.m */,
+				337A062C86811C0013D8AF6177E01262 /* Retriable-tvOS-Info.plist */,
+				1ECCBB41112D933B4F8301D4BC984A78 /* Retriable-tvOS-prefix.pch */,
+				9A4BDFCB0E96A57389CF0014EBF18642 /* Retriable-tvOS-umbrella.h */,
+				70883AB401368007A4EE18CAF611B312 /* Retriable-watchOS.modulemap */,
+				1DB55CDF455397293AC3E95B0ABEC1B8 /* Retriable-watchOS.xcconfig */,
+				5BFA23E9E4340DE994CF390FB3949C5D /* Retriable-watchOS-dummy.m */,
+				A924B618E54F85004DB17C56CA1FF11C /* Retriable-watchOS-Info.plist */,
+				3E649EC515BE051748C5E52B34003CC6 /* Retriable-watchOS-prefix.pch */,
+				1E7A84C6D570B8B49FB61D8BA1CEFA43 /* Retriable-watchOS-umbrella.h */,
 			);
-			name = "Targets Support Files";
+			name = "Support Files";
+			path = "../Target Support Files/Retriable-iOS";
 			sourceTree = "<group>";
 		};
-		A0743DFFB6382AA1038805C5504D1280 /* Frameworks */ = {
+		8252BE17052A9A9DE3F3958605A8C2DE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FBFBA915132077E2933C9AFED785908F /* iOS */,
-				2D9FFC744E477F7573ECDAE4D22B6C54 /* OS X */,
-				ACA9ACFB845D5EA3F5F78B8D0F9EE1EA /* tvOS */,
-				6366EE523A50E0BA9DEA7F7CD1C69FD1 /* watchOS */,
+				B87B79C6DA914D79A5A090BD93076C49 /* Pods_ShortenedURLExpander_iOS.framework */,
+				952E200696FC43A25D872DE32AB52AD4 /* Pods_ShortenedURLExpander_iOS_Example.framework */,
+				ABC41BA258C53EC3EE76B4368DCEF952 /* Pods_ShortenedURLExpander_macOS.framework */,
+				D0308C4FD0CBFC43FCC951A7ACB61A3C /* Pods_ShortenedURLExpander_tvOS.framework */,
+				B89A4013ED23F453E2D2791D4CC9088D /* Pods_ShortenedURLExpander_watchOS.framework */,
+				2ADC0E0F0E06732718570C754720E512 /* Retriable.framework */,
+				DD3B98F6C383E1C8D3F95500DAC1E5AF /* Retriable.framework */,
+				F76478FC702ADCC3C4DDA3D3D7F027BD /* Retriable.framework */,
+				03BDE174996AE88171418E8692443112 /* Retriable.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843659EEEB6E1E6832099A3F18A83371 /* Pods-ShortenedURLExpander iOS Example */ = {
+			isa = PBXGroup;
+			children = (
+				A42C8225CE07F2D9ECC7810EF5C4E2BA /* Pods-ShortenedURLExpander iOS Example.modulemap */,
+				E1B7E2B2E06FF68E0B88241EAE77DD0D /* Pods-ShortenedURLExpander iOS Example-acknowledgements.markdown */,
+				0B9C9B0D7589B8DA54D4EDB76DC5D29A /* Pods-ShortenedURLExpander iOS Example-acknowledgements.plist */,
+				59811237A43873C5BFACA67222AA04BE /* Pods-ShortenedURLExpander iOS Example-dummy.m */,
+				498B9D554C1D4169F7CB753C3A7B30B7 /* Pods-ShortenedURLExpander iOS Example-frameworks.sh */,
+				8558C1DECD6B878A8CA6F4BB5E79B923 /* Pods-ShortenedURLExpander iOS Example-Info.plist */,
+				AE1B58899ADF773AE95DD6ED8162BE76 /* Pods-ShortenedURLExpander iOS Example-umbrella.h */,
+				97475DB465F5D51F2956F269DE0D53DF /* Pods-ShortenedURLExpander iOS Example.debug.xcconfig */,
+				76DB4E483D5EE2090853B60908515C99 /* Pods-ShortenedURLExpander iOS Example.release.xcconfig */,
+			);
+			name = "Pods-ShortenedURLExpander iOS Example";
+			path = "Target Support Files/Pods-ShortenedURLExpander iOS Example";
+			sourceTree = "<group>";
+		};
+		89532EECFC98C94CF649F3D29F9BC7C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF89A9C49DC42DF35BCD3E29C77BEB6C /* Retriable */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		89BDABFD2905E242BC2407605328982F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A22CC081007D0DB439C5C463DB94AE3 /* iOS */,
+				0FB1B17B7AA8E7E486FA06BF4CE3AD0B /* OS X */,
+				BF0CDEC63C9155873D47FDB002FFFE35 /* tvOS */,
+				124D1375423A151263AD84B4B756069F /* watchOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		ACA9ACFB845D5EA3F5F78B8D0F9EE1EA /* tvOS */ = {
+		9A22CC081007D0DB439C5C463DB94AE3 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				65465551D71DA56EEDCE2BFDF9483914 /* Foundation.framework */,
-				41D270735AEACD705DA2BA35D5B86967 /* UIKit.framework */,
+				2B0DE33740661EA893C65C5E3635C9C7 /* Foundation.framework */,
+				256F88FAC97A66C6A6681D9B90F37FB1 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9FB6757210143B350F2D6A38814A3849 /* Pods-ShortenedURLExpander iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B4AFBB2EB46FD648748808357892B363 /* Pods-ShortenedURLExpander iOS.modulemap */,
+				7D985CCA839F0BCC5AAD82AD69A90907 /* Pods-ShortenedURLExpander iOS-acknowledgements.markdown */,
+				16DEA9D73FCFD0A5F905481CE472B481 /* Pods-ShortenedURLExpander iOS-acknowledgements.plist */,
+				9942978C3CF3D3683A238A6082B0C256 /* Pods-ShortenedURLExpander iOS-dummy.m */,
+				9064322243822C97522356B4F1D1B71B /* Pods-ShortenedURLExpander iOS-Info.plist */,
+				71E42FD319173CB3B298D9F2887DFF70 /* Pods-ShortenedURLExpander iOS-umbrella.h */,
+				B749375F62E0DC339D46C3AC0A8A88F7 /* Pods-ShortenedURLExpander iOS.debug.xcconfig */,
+				1ECD55093DFCCA47EBDCF3B39E574F0A /* Pods-ShortenedURLExpander iOS.release.xcconfig */,
+			);
+			name = "Pods-ShortenedURLExpander iOS";
+			path = "Target Support Files/Pods-ShortenedURLExpander iOS";
+			sourceTree = "<group>";
+		};
+		BF0CDEC63C9155873D47FDB002FFFE35 /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F3F4B3A8D5C61C4A5CAE90A70814864 /* Foundation.framework */,
+				1D7A3EB9EB2C39996496A5B217BCA1BD /* UIKit.framework */,
 			);
 			name = tvOS;
 			sourceTree = "<group>";
 		};
-		FBFBA915132077E2933C9AFED785908F /* iOS */ = {
+		C843CDD7BF9A234347709A0E923761AA /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2CA7965516EC6E7995FD2AA427EF32E0 /* Foundation.framework */,
-				3343CE86249B163C1E20784CE68232CF /* UIKit.framework */,
+				9FB6757210143B350F2D6A38814A3849 /* Pods-ShortenedURLExpander iOS */,
+				843659EEEB6E1E6832099A3F18A83371 /* Pods-ShortenedURLExpander iOS Example */,
+				3D2828D19DAAC950AB0AEF76890AE17D /* Pods-ShortenedURLExpander macOS */,
+				45C8D2DD638C4D1F45769D8E4C76C7A9 /* Pods-ShortenedURLExpander tvOS */,
+				36DA6086838DF5194BDB664E422C011E /* Pods-ShortenedURLExpander watchOS */,
 			);
-			name = iOS;
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				89BDABFD2905E242BC2407605328982F /* Frameworks */,
+				89532EECFC98C94CF649F3D29F9BC7C7 /* Pods */,
+				8252BE17052A9A9DE3F3958605A8C2DE /* Products */,
+				C843CDD7BF9A234347709A0E923761AA /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		FF89A9C49DC42DF35BCD3E29C77BEB6C /* Retriable */ = {
+			isa = PBXGroup;
+			children = (
+				30F7CE7045A060E86BDE2A5713FA6E6B /* Retriable.h */,
+				4152DFCC0BD68058D6AAC235AE083D46 /* RetriableOperation.h */,
+				72002FCC3D4810C0E3D63729BA75ABAD /* RetriableOperation.m */,
+				7ACF3D42D360A4D4E466CF68511DBB6E /* Support Files */,
+			);
+			path = Retriable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		47DE72903E48561074EADF3537B5371C /* Headers */ = {
+		1370A7C9F6A081696804E71153C46007 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9F174F71E27B12F025BA0A1D264B700 /* Pods-ShortenedURLExpander macOS-umbrella.h in Headers */,
+				99F3595361D4299862D2D1921C88350E /* Retriable-tvOS-umbrella.h in Headers */,
+				EC1646AD43470C282A7EF9426938BCDA /* Retriable.h in Headers */,
+				AE6A20C1384691629D294C065064D587 /* RetriableOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4D7D19BAAE13BE1137D4D568115F484D /* Headers */ = {
+		32F727957A1960B51C6CA0E5E068FAD3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD62F29C7B15EAB4DABADCEED51E28FD /* Retriable-macOS-umbrella.h in Headers */,
-				E426EA430987B9F45E460EF0F6275074 /* Retriable.h in Headers */,
-				3162A9512C6914345212D52398655E93 /* RetriableOperation.h in Headers */,
+				05949C823BCB0639785A31D4FFB3424F /* Pods-ShortenedURLExpander watchOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C80996EE9BED57B261A3E99FABC0C95 /* Headers */ = {
+		497B667CCD85386835D1F692AD57CD24 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47D2A4E6F06E4302F99A3FCF0DBB7EEF /* Retriable-tvOS-umbrella.h in Headers */,
-				1A45D4B1D7E5201903F08E7AFFF6704C /* Retriable.h in Headers */,
-				830722C72C9B8374576C654950ECB756 /* RetriableOperation.h in Headers */,
+				2702825B7D3A9F3F8F43F122C5597361 /* Pods-ShortenedURLExpander iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1336E0FF5810D3C0611AC7127EBD4E5 /* Headers */ = {
+		4BAA3E980AEA419AC2B1F46A351C6466 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F31687DEB578FFF901695D5EAE8A59CA /* Pods-ShortenedURLExpander iOS Example-umbrella.h in Headers */,
+				0CD4B982DF6260366F1DC7C0DD6D0AC7 /* Retriable-iOS-umbrella.h in Headers */,
+				9674758AF178446971F046C8F684EE05 /* Retriable.h in Headers */,
+				6264FAA1467468B7813AC5795E878E61 /* RetriableOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9A13527F2379BEB596F48ED2808FDA8 /* Headers */ = {
+		A2B247700F79CC2E9A8B2D9FE6DE137E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D94BC2C9AC6C59E36238EA22D2798DB9 /* Pods-ShortenedURLExpander watchOS-umbrella.h in Headers */,
+				83A22DAB6F61FBA580CEFB5C19F50E23 /* Pods-ShortenedURLExpander tvOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BC7D69DB8968FCA2FFA6E7DE034FA370 /* Headers */ = {
+		C543DD47CE62673F465B12CED5E6C22F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D19937E14289C25C412650EBA2715284 /* Retriable-watchOS-umbrella.h in Headers */,
-				6D7D5938D2C5185C96856E1607674632 /* Retriable.h in Headers */,
-				3227486E2938E6B34DDA9E7D43FB0E34 /* RetriableOperation.h in Headers */,
+				103BF9D3BD5E00EC107EBC94876143F6 /* Retriable-watchOS-umbrella.h in Headers */,
+				AC1D59AEED4D42D1D4A3A8E10787BDAA /* Retriable.h in Headers */,
+				7A36CB75F2FE617A730CEB488888C6AF /* RetriableOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8BF9E6CFA253729FD81F3482068AEE8 /* Headers */ = {
+		C9872BF4A8C31912D2F0F9BEF00645A0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95D849744FAFD869A5E3754722EA7281 /* Pods-ShortenedURLExpander iOS-umbrella.h in Headers */,
+				729C23C32A64027A8ACB5A58F8B60ACB /* Pods-ShortenedURLExpander macOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D592CB9471DA52D2EBA7080B4F8D8BD7 /* Headers */ = {
+		CEECD2F54EE73187DEC2534F9CD0E341 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A8B00C4384E601521E8FD75499B3E985 /* Retriable-iOS-umbrella.h in Headers */,
-				1E1FEF4BB263D883D0D4BDC7132BF832 /* Retriable.h in Headers */,
-				F35F2EB90B8087AB850A1FDADAC19691 /* RetriableOperation.h in Headers */,
+				BF8C7B78EF275DF93ED0EC05B2C32FA5 /* Retriable-macOS-umbrella.h in Headers */,
+				07913FF6EDCEBC8C8A7DA1DA345CEB73 /* Retriable.h in Headers */,
+				DC1CA3AF95B4929E26DF46F7B5625A1A /* RetriableOperation.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DE76F3A3C4BA12A3E6FD79ADF017C76C /* Headers */ = {
+		EDF21D9E35B009C4A280B52525F4BD8A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7AFF9196D9B62124F5657E278B973A26 /* Pods-ShortenedURLExpander tvOS-umbrella.h in Headers */,
+				F998F30BCCFE710A512AA37B9FB6D13A /* Pods-ShortenedURLExpander iOS Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2B793E24E35E9F650E9C6CD77A5AC1A9 /* Retriable-macOS */ = {
+		05AD172985577C4E9F46D270E855990A /* Pods-ShortenedURLExpander watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A29BEF1C61A3A018D3EDF5C653F40B30 /* Build configuration list for PBXNativeTarget "Retriable-macOS" */;
+			buildConfigurationList = 0A6EDD7209C21E6D24D3BE9F48072C96 /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander watchOS" */;
 			buildPhases = (
-				19C8245E2A1194A4FCB5DB42D8365355 /* Sources */,
-				829D7037FCD12DD0EE03D8284BD96C4B /* Frameworks */,
-				4D7D19BAAE13BE1137D4D568115F484D /* Headers */,
+				32F727957A1960B51C6CA0E5E068FAD3 /* Headers */,
+				F2A0B47DF88FDD23CAC96CD8D31EE26C /* Sources */,
+				A9D97E8EF3307E86F041ABA16D3CC397 /* Frameworks */,
+				BCA6F9B8F5CF84CF1A0259796E150C9D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5A97FF741D2DC403CC92093705932B78 /* PBXTargetDependency */,
 			);
-			name = "Retriable-macOS";
-			productName = "Retriable-macOS";
-			productReference = 381F33A38A3FED9C21135F41F43EB24D /* Retriable.framework */;
+			name = "Pods-ShortenedURLExpander watchOS";
+			productName = "Pods-ShortenedURLExpander watchOS";
+			productReference = B89A4013ED23F453E2D2791D4CC9088D /* Pods_ShortenedURLExpander_watchOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		647D3C385431048F9EBB074B21CBF155 /* Pods-ShortenedURLExpander iOS Example */ = {
+		101B3CB55A6F4AA31D253B254C6BD9D5 /* Retriable-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 36C67A7748A271586897C0A38CC03B3D /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander iOS Example" */;
+			buildConfigurationList = 297107AD1CD2F056A8F40323850B593D /* Build configuration list for PBXNativeTarget "Retriable-tvOS" */;
 			buildPhases = (
-				EA86EE8AFDAD9E808BAD9719D1B051EC /* Sources */,
-				AA9B31AFADE3D2BD41A40D07CD1DA41F /* Frameworks */,
-				A1336E0FF5810D3C0611AC7127EBD4E5 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2070E9E94CD61A5277643C0A72A37DD0 /* PBXTargetDependency */,
-			);
-			name = "Pods-ShortenedURLExpander iOS Example";
-			productName = "Pods-ShortenedURLExpander iOS Example";
-			productReference = 66B5776B3A85270458D8911F589D3697 /* Pods_ShortenedURLExpander_iOS_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		9B58445B913AC22580D57002AAC4E5C7 /* Retriable-tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5B7E9E4F124A96932E4BCEFE9513B3AF /* Build configuration list for PBXNativeTarget "Retriable-tvOS" */;
-			buildPhases = (
-				BEAC4E4B3E0037E7C859D1432B6FD2B6 /* Sources */,
-				C0187F51D586E08E1B866C9A4F32A1B4 /* Frameworks */,
-				5C80996EE9BED57B261A3E99FABC0C95 /* Headers */,
+				1370A7C9F6A081696804E71153C46007 /* Headers */,
+				68079B873C41CFEDA4EBDB228F48835F /* Sources */,
+				3C57FA15C8A97263CA0441269678E4E7 /* Frameworks */,
+				BFB5DA9F1D79C5E11A4991E42EF371B2 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -615,87 +589,92 @@
 			);
 			name = "Retriable-tvOS";
 			productName = "Retriable-tvOS";
-			productReference = 7E5918B07AC232B19B7DF6C2EA954078 /* Retriable.framework */;
+			productReference = DD3B98F6C383E1C8D3F95500DAC1E5AF /* Retriable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B76853A36876BC332CCF4BDDB6D82D35 /* Pods-ShortenedURLExpander iOS */ = {
+		3A72CE0938111F2A3BCFB205C9CEDF3A /* Pods-ShortenedURLExpander tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9EB6D094C8C7591E714F93D4004EE6F /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander iOS" */;
+			buildConfigurationList = 75135E4A7CB06280725F5EFB324EA14A /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander tvOS" */;
 			buildPhases = (
-				90A578DC6A7B724FD6B1B0098E5C8CA6 /* Sources */,
-				F8D272087E1A150D167C6B0D4FA6C854 /* Frameworks */,
-				C8BF9E6CFA253729FD81F3482068AEE8 /* Headers */,
+				A2B247700F79CC2E9A8B2D9FE6DE137E /* Headers */,
+				602B4ABC5DEB829336D77E3A6843048C /* Sources */,
+				03113570B636E05CEB88C8D416FDBCA6 /* Frameworks */,
+				EDEA3339B1E6AE3AE76FA6B2FAA15E31 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B3FE85FC53CC51B47B846CBF0D9BC152 /* PBXTargetDependency */,
-			);
-			name = "Pods-ShortenedURLExpander iOS";
-			productName = "Pods-ShortenedURLExpander iOS";
-			productReference = B0DEC424D076C7A012F94DBE5F4B2A3E /* Pods_ShortenedURLExpander_iOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		C34B2110C7B75D81CB7D3AA3603EB3C2 /* Pods-ShortenedURLExpander tvOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8EA23ABD4287C960E41235BB7720EDF0 /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander tvOS" */;
-			buildPhases = (
-				A6A5B61FEEFE4A1A5E85266571F2173A /* Sources */,
-				A635873994BF71A73E4D284E3F66C838 /* Frameworks */,
-				DE76F3A3C4BA12A3E6FD79ADF017C76C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				593C1DF68A75BDE53D3354B451571F09 /* PBXTargetDependency */,
+				18674B1E4A3C5C99DC01BF101D4B0E95 /* PBXTargetDependency */,
 			);
 			name = "Pods-ShortenedURLExpander tvOS";
 			productName = "Pods-ShortenedURLExpander tvOS";
-			productReference = 21FD2F3FFBEA4D9F25ACD9B51344ECD8 /* Pods_ShortenedURLExpander_tvOS.framework */;
+			productReference = D0308C4FD0CBFC43FCC951A7ACB61A3C /* Pods_ShortenedURLExpander_tvOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D41791F578B2039B95C17B74CC91B233 /* Retriable-watchOS */ = {
+		5F9383E92B936B7D11737CD1BD9AEC9B /* Pods-ShortenedURLExpander macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C081AE17F6FD9E8DAB2B91DF8E2B6A7 /* Build configuration list for PBXNativeTarget "Retriable-watchOS" */;
+			buildConfigurationList = 72B0BBF2AF1CBB042F21978AB9815034 /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander macOS" */;
 			buildPhases = (
-				9C4C1971AF613F44528F34AE2D124421 /* Sources */,
-				022B06B21DC0AFE3B230BA72CE80A611 /* Frameworks */,
-				BC7D69DB8968FCA2FFA6E7DE034FA370 /* Headers */,
+				C9872BF4A8C31912D2F0F9BEF00645A0 /* Headers */,
+				9F82A4297EE87353899724AC0EC1D8A8 /* Sources */,
+				DE7D63AAFBC4EE0716342FF5BCD06CBA /* Frameworks */,
+				4A3A58B87A6E09E692A5CE2E211364AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB61C5CC6472BB910008151F3D1B1A23 /* PBXTargetDependency */,
+			);
+			name = "Pods-ShortenedURLExpander macOS";
+			productName = "Pods-ShortenedURLExpander macOS";
+			productReference = ABC41BA258C53EC3EE76B4368DCEF952 /* Pods_ShortenedURLExpander_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9E1E21E77C2E0BAA83EB5C9983A5390 /* Retriable-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124B412E58CFE11C79D92F80B09712A2 /* Build configuration list for PBXNativeTarget "Retriable-macOS" */;
+			buildPhases = (
+				CEECD2F54EE73187DEC2534F9CD0E341 /* Headers */,
+				ECB30BA505FCE74B592E6F2294684268 /* Sources */,
+				A095828DBBDE31F520DEFA25A4210E4C /* Frameworks */,
+				408DF105EA7D36632A8F7B25FC0E7BB6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Retriable-watchOS";
-			productName = "Retriable-watchOS";
-			productReference = 85F93C246B0E68EAB0C0B313B742B1F1 /* Retriable.framework */;
+			name = "Retriable-macOS";
+			productName = "Retriable-macOS";
+			productReference = F76478FC702ADCC3C4DDA3D3D7F027BD /* Retriable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DFFF1435B2AAB9A9F488D082508DC4AE /* Pods-ShortenedURLExpander watchOS */ = {
+		BA8C71E07BC97513A43C79827C0F21A3 /* Pods-ShortenedURLExpander iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 56C07A44FA048DE6BE92938F50D6188A /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander watchOS" */;
+			buildConfigurationList = 65166BAD84B094CDD12ECBB0784BB592 /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander iOS" */;
 			buildPhases = (
-				281F49EC6358A4530B0C6FBC32DD8E41 /* Sources */,
-				B09682D2CD10727C695394BA40B78E25 /* Frameworks */,
-				B9A13527F2379BEB596F48ED2808FDA8 /* Headers */,
+				497B667CCD85386835D1F692AD57CD24 /* Headers */,
+				EF9DB989248F62533DC8E0A2ABC4A312 /* Sources */,
+				B1B0ED9A151EC1651838695F3A8BF56D /* Frameworks */,
+				CAB6C909921C6ADE6A1326914CE458E9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F1A40BAC0D8FB8309AC5E67908CFA0B2 /* PBXTargetDependency */,
+				ED561330EE35CFF57EB68672CC914E75 /* PBXTargetDependency */,
 			);
-			name = "Pods-ShortenedURLExpander watchOS";
-			productName = "Pods-ShortenedURLExpander watchOS";
-			productReference = EF3E002448C73F51C9F2DA0A0001F673 /* Pods_ShortenedURLExpander_watchOS.framework */;
+			name = "Pods-ShortenedURLExpander iOS";
+			productName = "Pods-ShortenedURLExpander iOS";
+			productReference = B87B79C6DA914D79A5A090BD93076C49 /* Pods_ShortenedURLExpander_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F9088D5F5320FDB01BD53C8DB7AD744D /* Retriable-iOS */ = {
+		E2531DF0E145688AD0E626AF962618B5 /* Retriable-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F68554B5C4FF45E81B338A1302D93323 /* Build configuration list for PBXNativeTarget "Retriable-iOS" */;
+			buildConfigurationList = A987F365AD29528CA892A9F38CFAEDF4 /* Build configuration list for PBXNativeTarget "Retriable-iOS" */;
 			buildPhases = (
-				4902488D58AD03BA17FFB2409D0A4C03 /* Sources */,
-				52C32A90192D59001C4F7F559E7E7A93 /* Frameworks */,
-				D592CB9471DA52D2EBA7080B4F8D8BD7 /* Headers */,
+				4BAA3E980AEA419AC2B1F46A351C6466 /* Headers */,
+				AD0F1097437BFB63800FB27450078737 /* Sources */,
+				742969527C3C56DD365E356C20F55B4C /* Frameworks */,
+				11DEA01964FC3A61CBE610D524830CD5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -703,177 +682,262 @@
 			);
 			name = "Retriable-iOS";
 			productName = "Retriable-iOS";
-			productReference = 856387A2DAC0C4FE2917B96C13FDB28C /* Retriable.framework */;
+			productReference = 03BDE174996AE88171418E8692443112 /* Retriable.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FB033473B8CBEBF625A8FB3B3A2AC8E3 /* Pods-ShortenedURLExpander macOS */ = {
+		F7DBAB94A3CF97D4212094003E08B68A /* Retriable-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A52063EB750D284683F647BDACFE37DE /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander macOS" */;
+			buildConfigurationList = 0E1B7A10B099D44DE26302629C9484CE /* Build configuration list for PBXNativeTarget "Retriable-watchOS" */;
 			buildPhases = (
-				0E5E2AE50A6907C23C96CCB0203F588A /* Sources */,
-				912FDF770E00E5B51CF028757927BC39 /* Frameworks */,
-				47DE72903E48561074EADF3537B5371C /* Headers */,
+				C543DD47CE62673F465B12CED5E6C22F /* Headers */,
+				CCB10CD275D9E9FB41E32A030FF42DD3 /* Sources */,
+				4AD10801CC7EB6371F753CDAD7EE4C37 /* Frameworks */,
+				5194A04106757059E75EC8C1DDC94DE9 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE94694EF6B6E431D8A560C077B464F4 /* PBXTargetDependency */,
 			);
-			name = "Pods-ShortenedURLExpander macOS";
-			productName = "Pods-ShortenedURLExpander macOS";
-			productReference = 72E5ED677777B3C2D057C72460F27A8B /* Pods_ShortenedURLExpander_macOS.framework */;
+			name = "Retriable-watchOS";
+			productName = "Retriable-watchOS";
+			productReference = 2ADC0E0F0E06732718570C754720E512 /* Retriable.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FA9E2859EF0A06BAFFC37A6BCD360FD2 /* Pods-ShortenedURLExpander iOS Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F1A614ED383ADAD1626FAFB7E863996 /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander iOS Example" */;
+			buildPhases = (
+				EDF21D9E35B009C4A280B52525F4BD8A /* Headers */,
+				161B361C1EC128C458F60B5D3DD4A438 /* Sources */,
+				81CA26B910896A48C7F458AFD4207252 /* Frameworks */,
+				672F4DC3A8AA4D3430C5C4867D331D65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7DB9ED861343C9200F7DECD414CDF01C /* PBXTargetDependency */,
+			);
+			name = "Pods-ShortenedURLExpander iOS Example";
+			productName = "Pods-ShortenedURLExpander iOS Example";
+			productReference = 952E200696FC43A25D872DE32AB52AD4 /* Pods_ShortenedURLExpander_iOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 202DB3E6D2ECD6B7617252A91585E0F6 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8252BE17052A9A9DE3F3958605A8C2DE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B76853A36876BC332CCF4BDDB6D82D35 /* Pods-ShortenedURLExpander iOS */,
-				647D3C385431048F9EBB074B21CBF155 /* Pods-ShortenedURLExpander iOS Example */,
-				FB033473B8CBEBF625A8FB3B3A2AC8E3 /* Pods-ShortenedURLExpander macOS */,
-				C34B2110C7B75D81CB7D3AA3603EB3C2 /* Pods-ShortenedURLExpander tvOS */,
-				DFFF1435B2AAB9A9F488D082508DC4AE /* Pods-ShortenedURLExpander watchOS */,
-				F9088D5F5320FDB01BD53C8DB7AD744D /* Retriable-iOS */,
-				2B793E24E35E9F650E9C6CD77A5AC1A9 /* Retriable-macOS */,
-				9B58445B913AC22580D57002AAC4E5C7 /* Retriable-tvOS */,
-				D41791F578B2039B95C17B74CC91B233 /* Retriable-watchOS */,
+				BA8C71E07BC97513A43C79827C0F21A3 /* Pods-ShortenedURLExpander iOS */,
+				FA9E2859EF0A06BAFFC37A6BCD360FD2 /* Pods-ShortenedURLExpander iOS Example */,
+				5F9383E92B936B7D11737CD1BD9AEC9B /* Pods-ShortenedURLExpander macOS */,
+				3A72CE0938111F2A3BCFB205C9CEDF3A /* Pods-ShortenedURLExpander tvOS */,
+				05AD172985577C4E9F46D270E855990A /* Pods-ShortenedURLExpander watchOS */,
+				E2531DF0E145688AD0E626AF962618B5 /* Retriable-iOS */,
+				B9E1E21E77C2E0BAA83EB5C9983A5390 /* Retriable-macOS */,
+				101B3CB55A6F4AA31D253B254C6BD9D5 /* Retriable-tvOS */,
+				F7DBAB94A3CF97D4212094003E08B68A /* Retriable-watchOS */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		11DEA01964FC3A61CBE610D524830CD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		408DF105EA7D36632A8F7B25FC0E7BB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A3A58B87A6E09E692A5CE2E211364AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5194A04106757059E75EC8C1DDC94DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		672F4DC3A8AA4D3430C5C4867D331D65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA6F9B8F5CF84CF1A0259796E150C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB5DA9F1D79C5E11A4991E42EF371B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAB6C909921C6ADE6A1326914CE458E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDEA3339B1E6AE3AE76FA6B2FAA15E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		0E5E2AE50A6907C23C96CCB0203F588A /* Sources */ = {
+		161B361C1EC128C458F60B5D3DD4A438 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16F4E3BAE55905C2DB132F13B42BB0AA /* Pods-ShortenedURLExpander macOS-dummy.m in Sources */,
+				2FAEA5E1B781993E49D239D9ABBE61C9 /* Pods-ShortenedURLExpander iOS Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		19C8245E2A1194A4FCB5DB42D8365355 /* Sources */ = {
+		602B4ABC5DEB829336D77E3A6843048C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D14CECA8545174F9B8907AD88680F147 /* Retriable-macOS-dummy.m in Sources */,
-				7B7342DAA7F484F4B38C567E05263696 /* RetriableOperation.m in Sources */,
+				324802DE25DB9EC4575A21BDA7289DA3 /* Pods-ShortenedURLExpander tvOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		281F49EC6358A4530B0C6FBC32DD8E41 /* Sources */ = {
+		68079B873C41CFEDA4EBDB228F48835F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60205818E3DF632F64472003E731086C /* Pods-ShortenedURLExpander watchOS-dummy.m in Sources */,
+				A887348F51CF7B76A61CFB006FBE31DC /* Retriable-tvOS-dummy.m in Sources */,
+				AF303F7F9220EBE499B57B1184D15406 /* RetriableOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4902488D58AD03BA17FFB2409D0A4C03 /* Sources */ = {
+		9F82A4297EE87353899724AC0EC1D8A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA8BDCDFE6C1F5B91F282E1842B40566 /* Retriable-iOS-dummy.m in Sources */,
-				2C72DD95328F5895C6A8D4EBF75E94A9 /* RetriableOperation.m in Sources */,
+				55E738515B042F5A1DEFAE2C827685EB /* Pods-ShortenedURLExpander macOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90A578DC6A7B724FD6B1B0098E5C8CA6 /* Sources */ = {
+		AD0F1097437BFB63800FB27450078737 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B20C9EB584F494EF12047DD16DC91C43 /* Pods-ShortenedURLExpander iOS-dummy.m in Sources */,
+				545CB49A35E2787DB7CFD067C887C8EF /* Retriable-iOS-dummy.m in Sources */,
+				667D0F7FA9605D26835E269604233AD0 /* RetriableOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C4C1971AF613F44528F34AE2D124421 /* Sources */ = {
+		CCB10CD275D9E9FB41E32A030FF42DD3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E3407B0405D0299381757259D5ABC22 /* Retriable-watchOS-dummy.m in Sources */,
-				1E8BE8F9E4B7840E297823CA87F3D9F4 /* RetriableOperation.m in Sources */,
+				9024AE8BFE916DB9E183D0D18B75ACAB /* Retriable-watchOS-dummy.m in Sources */,
+				74B11462C5BA03B11449EFBD80164FE6 /* RetriableOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6A5B61FEEFE4A1A5E85266571F2173A /* Sources */ = {
+		ECB30BA505FCE74B592E6F2294684268 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				432B021945811CEA35B46895E838B1D0 /* Pods-ShortenedURLExpander tvOS-dummy.m in Sources */,
+				A1CDE5247DE12E49958CE77C6C0BCCDB /* Retriable-macOS-dummy.m in Sources */,
+				4DBCA795AFEE11862F49EE0371B7921E /* RetriableOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BEAC4E4B3E0037E7C859D1432B6FD2B6 /* Sources */ = {
+		EF9DB989248F62533DC8E0A2ABC4A312 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9DCB106E7A043DA1318724A3579C8E8 /* Retriable-tvOS-dummy.m in Sources */,
-				FA862E9DAFB6FCDCB729E8E3BB2207F9 /* RetriableOperation.m in Sources */,
+				006B02741EB9DA94691E283B11185569 /* Pods-ShortenedURLExpander iOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA86EE8AFDAD9E808BAD9719D1B051EC /* Sources */ = {
+		F2A0B47DF88FDD23CAC96CD8D31EE26C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6945E16759EA010E09C4760FC0F25244 /* Pods-ShortenedURLExpander iOS Example-dummy.m in Sources */,
+				1B1DC03B2B1A08E24F96FFF8F73D9F44 /* Pods-ShortenedURLExpander watchOS-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2070E9E94CD61A5277643C0A72A37DD0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Retriable-iOS";
-			target = F9088D5F5320FDB01BD53C8DB7AD744D /* Retriable-iOS */;
-			targetProxy = 7EAD71403CCA195A7F33D6979EC9CEE2 /* PBXContainerItemProxy */;
-		};
-		593C1DF68A75BDE53D3354B451571F09 /* PBXTargetDependency */ = {
+		18674B1E4A3C5C99DC01BF101D4B0E95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Retriable-tvOS";
-			target = 9B58445B913AC22580D57002AAC4E5C7 /* Retriable-tvOS */;
-			targetProxy = 0FFB577B0389CC59BA934E96E3071E6B /* PBXContainerItemProxy */;
+			target = 101B3CB55A6F4AA31D253B254C6BD9D5 /* Retriable-tvOS */;
+			targetProxy = 8E78971135B41CDBF4CAC2DF35D1861E /* PBXContainerItemProxy */;
 		};
-		B3FE85FC53CC51B47B846CBF0D9BC152 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Retriable-iOS";
-			target = F9088D5F5320FDB01BD53C8DB7AD744D /* Retriable-iOS */;
-			targetProxy = 424A012013C5BABF1F07A5BCE4EBFFFB /* PBXContainerItemProxy */;
-		};
-		CE94694EF6B6E431D8A560C077B464F4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Retriable-macOS";
-			target = 2B793E24E35E9F650E9C6CD77A5AC1A9 /* Retriable-macOS */;
-			targetProxy = 055F5AA1D7484CE59EAB1B7C04269E3F /* PBXContainerItemProxy */;
-		};
-		F1A40BAC0D8FB8309AC5E67908CFA0B2 /* PBXTargetDependency */ = {
+		5A97FF741D2DC403CC92093705932B78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Retriable-watchOS";
-			target = D41791F578B2039B95C17B74CC91B233 /* Retriable-watchOS */;
-			targetProxy = B15AE3673A37712ED9E3C5FB2C0DDDCE /* PBXContainerItemProxy */;
+			target = F7DBAB94A3CF97D4212094003E08B68A /* Retriable-watchOS */;
+			targetProxy = 3D9478286AA250F7EAFA9BD687E54999 /* PBXContainerItemProxy */;
+		};
+		7DB9ED861343C9200F7DECD414CDF01C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Retriable-iOS";
+			target = E2531DF0E145688AD0E626AF962618B5 /* Retriable-iOS */;
+			targetProxy = 952B51DDC123097F4F464FF4BD2BBF11 /* PBXContainerItemProxy */;
+		};
+		ED561330EE35CFF57EB68672CC914E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Retriable-iOS";
+			target = E2531DF0E145688AD0E626AF962618B5 /* Retriable-iOS */;
+			targetProxy = C49397B7A3C5E8903237041E664F197D /* PBXContainerItemProxy */;
+		};
+		FB61C5CC6472BB910008151F3D1B1A23 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Retriable-macOS";
+			target = B9E1E21E77C2E0BAA83EB5C9983A5390 /* Retriable-macOS */;
+			targetProxy = AA4BC86194F3C0462792E2022CB773AA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		01AE4787597B7A6FEF66ED9F4203308C /* Debug */ = {
+		02E2611505C272F8D50BF11D39B2F7B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 626692FD2C90559D0797FE1F79443F6E /* Pods-ShortenedURLExpander tvOS.debug.xcconfig */;
+			baseConfigurationReference = FEEB3B958A59C6FFC690109869C5CF06 /* Pods-ShortenedURLExpander tvOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -885,7 +949,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander tvOS/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander tvOS/Pods-ShortenedURLExpander tvOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
@@ -904,69 +968,9 @@
 			};
 			name = Debug;
 		};
-		02F1DE0580DAF9AEFD604E15FD620EE7 /* Debug */ = {
+		15F20EBE1C42BF928C4FA95A5961E4E0 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2876CA4071077D7C626FF6359E9AB743 /* Retriable-iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Retriable-iOS/Retriable-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Retriable-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Retriable-iOS/Retriable-iOS.modulemap";
-				PRODUCT_MODULE_NAME = Retriable;
-				PRODUCT_NAME = Retriable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		1EE69C6E33B42393CB375C03414511B3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8B3DBF0E64D760B822B7161CB250BDD /* Retriable-tvOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Retriable-tvOS/Retriable-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Retriable-tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Retriable-tvOS/Retriable-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = Retriable;
-				PRODUCT_NAME = Retriable;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		39873210701227A3DEBF2A1F5E0A1CCB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0632AA9BCA306D6DE68EF77DC3BB8EE2 /* Pods-ShortenedURLExpander watchOS.debug.xcconfig */;
+			baseConfigurationReference = F0004306BFEFBA3CA0CA20163B6F1A5A /* Pods-ShortenedURLExpander watchOS.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -979,7 +983,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander watchOS/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander watchOS/Pods-ShortenedURLExpander watchOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
@@ -992,111 +996,14 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
-			name = Debug;
-		};
-		45DABD230D117279E8CB1CEBA8D09DE4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F5E3BD58C427F669DE7352A3225A1B8 /* Retriable-macOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Retriable-macOS/Retriable-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Retriable-macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/Retriable-macOS/Retriable-macOS.modulemap";
-				PRODUCT_MODULE_NAME = Retriable;
-				PRODUCT_NAME = Retriable;
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
 			name = Release;
 		};
-		4B919470CAE53EE8944AE5F2ED6A83A0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCF71023515CED172C0F66CF64E38794 /* Pods-ShortenedURLExpander macOS.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/Pods-ShortenedURLExpander macOS/Pods-ShortenedURLExpander macOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		581896973378ABE68D85E26F9DB9AA17 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BAD316F93025149F9E68A9C0F78C67F7 /* Pods-ShortenedURLExpander iOS Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS Example/Pods-ShortenedURLExpander iOS Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		63E90A30E3671C9081E26C842F76B7E9 /* Release */ = {
+		2F347A07C09A2B1DA801A8759AA080A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1128,363 +1035,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		80A96E51842D7E0F2D3391F7E3E929E5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 86BBDBA43ACA7A59569B2612178B5A87 /* Pods-ShortenedURLExpander iOS Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS Example/Pods-ShortenedURLExpander iOS Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9D49C0737CACE1D184CE20337AC27C43 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9EB5A3E91AD8A54414FC88CF9695AFE /* Retriable-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Retriable-watchOS/Retriable-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Retriable-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Retriable-watchOS/Retriable-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = Retriable;
-				PRODUCT_NAME = Retriable;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Release;
-		};
-		BB3E4AF1CA4285CD72A001DF7EB5FAE5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 673B032B593C944654B4CF3832EDBECD /* Pods-ShortenedURLExpander iOS.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS/Pods-ShortenedURLExpander iOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		C57399C881F51B71A0AB412173637E37 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8B3DBF0E64D760B822B7161CB250BDD /* Retriable-tvOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Retriable-tvOS/Retriable-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Retriable-tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Retriable-tvOS/Retriable-tvOS.modulemap";
-				PRODUCT_MODULE_NAME = Retriable;
-				PRODUCT_NAME = Retriable;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D2F0AEC047F39600DFA4CAE740643422 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2876CA4071077D7C626FF6359E9AB743 /* Retriable-iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Retriable-iOS/Retriable-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Retriable-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Retriable-iOS/Retriable-iOS.modulemap";
-				PRODUCT_MODULE_NAME = Retriable;
-				PRODUCT_NAME = Retriable;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		DDECAA9E18F55CA0BFD907819342A5BB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = ED324DFA48C9773F79A3B48BF6B62C3D /* Pods-ShortenedURLExpander macOS.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander macOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MODULEMAP_FILE = "Target Support Files/Pods-ShortenedURLExpander macOS/Pods-ShortenedURLExpander macOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E7E81CF790594141A434DFDCE9F95991 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9EB5A3E91AD8A54414FC88CF9695AFE /* Retriable-watchOS.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Retriable-watchOS/Retriable-watchOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Retriable-watchOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Retriable-watchOS/Retriable-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = Retriable;
-				PRODUCT_NAME = Retriable;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 2.0;
-			};
-			name = Debug;
-		};
-		ED0763AD0E314E859765CDE07E09BF46 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B7905B9D2CA42FDF3132FB3D2CAF40F /* Pods-ShortenedURLExpander tvOS.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ShortenedURLExpander tvOS/Pods-ShortenedURLExpander tvOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EE9A687B1C0FA30405646E0DB07C36CC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8ACC74AEA993A3F00D889AFD5A4A4E3 /* Pods-ShortenedURLExpander iOS.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS/Pods-ShortenedURLExpander iOS.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		F7E43AAE8AA4C9C06EB2DF75278B00C2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1506,20 +1056,57 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 				TVOS_DEPLOYMENT_TARGET = 9.0;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
 			name = Debug;
 		};
-		FAB4A7A43BF23B4CC8FA41D38CDBCB73 /* Debug */ = {
+		32CDDD32F970608401FD765241E3B0B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F5E3BD58C427F669DE7352A3225A1B8 /* Retriable-macOS.xcconfig */;
+			baseConfigurationReference = 5A6568877D74A25E004A226BAA263F9A /* Pods-ShortenedURLExpander macOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander macOS/Pods-ShortenedURLExpander macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShortenedURLExpander macOS/Pods-ShortenedURLExpander macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		35BA2CD47B2E292A6B5A1494BB22D55A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4649D9981E10F498A2B14755E193FEAE /* Retriable-macOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1533,7 +1120,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
 				GCC_PREFIX_HEADER = "Target Support Files/Retriable-macOS/Retriable-macOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Retriable-macOS/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Retriable-macOS/Retriable-macOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
@@ -1548,9 +1135,136 @@
 			};
 			name = Debug;
 		};
-		FAE8E0A8EC71F4D908E5CAE2A6401827 /* Release */ = {
+		3863292EAC56FC553FF1E9A6DB9C56B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD652D4D8DE04071EE362434F7F9E3EA /* Pods-ShortenedURLExpander watchOS.release.xcconfig */;
+			baseConfigurationReference = B749375F62E0DC339D46C3AC0A8A88F7 /* Pods-ShortenedURLExpander iOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS/Pods-ShortenedURLExpander iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS/Pods-ShortenedURLExpander iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3F3C8F58CF037C9850EDD4F5FD3A4892 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB55CDF455397293AC3E95B0ABEC1B8 /* Retriable-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Retriable-watchOS/Retriable-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Retriable-watchOS/Retriable-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Retriable-watchOS/Retriable-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = Retriable;
+				PRODUCT_NAME = Retriable;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		42990BEDA2C980124D3D592A71BD5F9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		7D4A9470A788A296AC116678BF8A703C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5DE99FE27EE639D2DD51088B6C90FE8 /* Pods-ShortenedURLExpander watchOS.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				APPLICATION_EXTENSION_API_ONLY = YES;
@@ -1563,7 +1277,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander watchOS/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander watchOS/Pods-ShortenedURLExpander watchOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
@@ -1576,107 +1290,459 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		A4947B17B032F8C47C3593BEC688130C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A12DB94D560B7092F3C4805252290C /* Retriable-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Retriable-tvOS/Retriable-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Retriable-tvOS/Retriable-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Retriable-tvOS/Retriable-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = Retriable;
+				PRODUCT_NAME = Retriable;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A60A1B821DAAD3AD42DD29C86F5878AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1CD4DB3DDDD43C7D0CA84C0FF7A2919 /* Pods-ShortenedURLExpander tvOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander tvOS/Pods-ShortenedURLExpander tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShortenedURLExpander tvOS/Pods-ShortenedURLExpander tvOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B76C7AF1CA60E75AA011641815EC4899 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C0AC542A6642EA154C16FDAEA4E354 /* Retriable-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Retriable-iOS/Retriable-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Retriable-iOS/Retriable-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Retriable-iOS/Retriable-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Retriable;
+				PRODUCT_NAME = Retriable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8CA46A18F832576039D8A39F35E86C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4649D9981E10F498A2B14755E193FEAE /* Retriable-macOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREFIX_HEADER = "Target Support Files/Retriable-macOS/Retriable-macOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Retriable-macOS/Retriable-macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Retriable-macOS/Retriable-macOS.modulemap";
+				PRODUCT_MODULE_NAME = Retriable;
+				PRODUCT_NAME = Retriable;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C83D025B3548D965640B5F8EF3722FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A12DB94D560B7092F3C4805252290C /* Retriable-tvOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Retriable-tvOS/Retriable-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Retriable-tvOS/Retriable-tvOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Retriable-tvOS/Retriable-tvOS.modulemap";
+				PRODUCT_MODULE_NAME = Retriable;
+				PRODUCT_NAME = Retriable;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA5C5ECA1C167526B0DF78F9CE634872 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97475DB465F5D51F2956F269DE0D53DF /* Pods-ShortenedURLExpander iOS Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS Example/Pods-ShortenedURLExpander iOS Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS Example/Pods-ShortenedURLExpander iOS Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CCCAC7D72044B39985961980F885BBF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9C02A4F0B93DEE5954B9CAFBAB8D997 /* Pods-ShortenedURLExpander macOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander macOS/Pods-ShortenedURLExpander macOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShortenedURLExpander macOS/Pods-ShortenedURLExpander macOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD1E3180A49E0C55BA7E6774875F753B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76DB4E483D5EE2090853B60908515C99 /* Pods-ShortenedURLExpander iOS Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS Example/Pods-ShortenedURLExpander iOS Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS Example/Pods-ShortenedURLExpander iOS Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D0254A39F72A337EB308FB228D3A1113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6C0AC542A6642EA154C16FDAEA4E354 /* Retriable-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Retriable-iOS/Retriable-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Retriable-iOS/Retriable-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Retriable-iOS/Retriable-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Retriable;
+				PRODUCT_NAME = Retriable;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D9F8762B6899BB3AB2731BD38FFA1252 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DB55CDF455397293AC3E95B0ABEC1B8 /* Retriable-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Retriable-watchOS/Retriable-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Retriable-watchOS/Retriable-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Retriable-watchOS/Retriable-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = Retriable;
+				PRODUCT_NAME = Retriable;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F9318A6948BEDA5A88D47635FFCE965C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ECD55093DFCCA47EBDCF3B39E574F0A /* Pods-ShortenedURLExpander iOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS/Pods-ShortenedURLExpander iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ShortenedURLExpander iOS/Pods-ShortenedURLExpander iOS.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		0A6EDD7209C21E6D24D3BE9F48072C96 /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F7E43AAE8AA4C9C06EB2DF75278B00C2 /* Debug */,
-				63E90A30E3671C9081E26C842F76B7E9 /* Release */,
+				7D4A9470A788A296AC116678BF8A703C /* Debug */,
+				15F20EBE1C42BF928C4FA95A5961E4E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36C67A7748A271586897C0A38CC03B3D /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander iOS Example" */ = {
+		0E1B7A10B099D44DE26302629C9484CE /* Build configuration list for PBXNativeTarget "Retriable-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				581896973378ABE68D85E26F9DB9AA17 /* Debug */,
-				80A96E51842D7E0F2D3391F7E3E929E5 /* Release */,
+				D9F8762B6899BB3AB2731BD38FFA1252 /* Debug */,
+				3F3C8F58CF037C9850EDD4F5FD3A4892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		56C07A44FA048DE6BE92938F50D6188A /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander watchOS" */ = {
+		124B412E58CFE11C79D92F80B09712A2 /* Build configuration list for PBXNativeTarget "Retriable-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				39873210701227A3DEBF2A1F5E0A1CCB /* Debug */,
-				FAE8E0A8EC71F4D908E5CAE2A6401827 /* Release */,
+				35BA2CD47B2E292A6B5A1494BB22D55A /* Debug */,
+				B8CA46A18F832576039D8A39F35E86C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5B7E9E4F124A96932E4BCEFE9513B3AF /* Build configuration list for PBXNativeTarget "Retriable-tvOS" */ = {
+		297107AD1CD2F056A8F40323850B593D /* Build configuration list for PBXNativeTarget "Retriable-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1EE69C6E33B42393CB375C03414511B3 /* Debug */,
-				C57399C881F51B71A0AB412173637E37 /* Release */,
+				A4947B17B032F8C47C3593BEC688130C /* Debug */,
+				C83D025B3548D965640B5F8EF3722FBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8EA23ABD4287C960E41235BB7720EDF0 /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander tvOS" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				01AE4787597B7A6FEF66ED9F4203308C /* Debug */,
-				ED0763AD0E314E859765CDE07E09BF46 /* Release */,
+				2F347A07C09A2B1DA801A8759AA080A1 /* Debug */,
+				42990BEDA2C980124D3D592A71BD5F9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C081AE17F6FD9E8DAB2B91DF8E2B6A7 /* Build configuration list for PBXNativeTarget "Retriable-watchOS" */ = {
+		65166BAD84B094CDD12ECBB0784BB592 /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7E81CF790594141A434DFDCE9F95991 /* Debug */,
-				9D49C0737CACE1D184CE20337AC27C43 /* Release */,
+				3863292EAC56FC553FF1E9A6DB9C56B0 /* Debug */,
+				F9318A6948BEDA5A88D47635FFCE965C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A29BEF1C61A3A018D3EDF5C653F40B30 /* Build configuration list for PBXNativeTarget "Retriable-macOS" */ = {
+		6F1A614ED383ADAD1626FAFB7E863996 /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander iOS Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FAB4A7A43BF23B4CC8FA41D38CDBCB73 /* Debug */,
-				45DABD230D117279E8CB1CEBA8D09DE4 /* Release */,
+				CA5C5ECA1C167526B0DF78F9CE634872 /* Debug */,
+				CD1E3180A49E0C55BA7E6774875F753B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A52063EB750D284683F647BDACFE37DE /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander macOS" */ = {
+		72B0BBF2AF1CBB042F21978AB9815034 /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDECAA9E18F55CA0BFD907819342A5BB /* Debug */,
-				4B919470CAE53EE8944AE5F2ED6A83A0 /* Release */,
+				32CDDD32F970608401FD765241E3B0B0 /* Debug */,
+				CCCAC7D72044B39985961980F885BBF2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9EB6D094C8C7591E714F93D4004EE6F /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander iOS" */ = {
+		75135E4A7CB06280725F5EFB324EA14A /* Build configuration list for PBXNativeTarget "Pods-ShortenedURLExpander tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE9A687B1C0FA30405646E0DB07C36CC /* Debug */,
-				BB3E4AF1CA4285CD72A001DF7EB5FAE5 /* Release */,
+				02E2611505C272F8D50BF11D39B2F7B2 /* Debug */,
+				A60A1B821DAAD3AD42DD29C86F5878AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F68554B5C4FF45E81B338A1302D93323 /* Build configuration list for PBXNativeTarget "Retriable-iOS" */ = {
+		A987F365AD29528CA892A9F38CFAEDF4 /* Build configuration list for PBXNativeTarget "Retriable-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				02F1DE0580DAF9AEFD604E15FD620EE7 /* Debug */,
-				D2F0AEC047F39600DFA4CAE740643422 /* Release */,
+				D0254A39F72A337EB308FB228D3A1113 /* Debug */,
+				B76C7AF1CA60E75AA011641815EC4899 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
